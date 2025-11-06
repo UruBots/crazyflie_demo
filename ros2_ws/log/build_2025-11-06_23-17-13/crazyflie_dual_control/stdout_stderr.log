@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/dependency_links.txt
+writing entry points to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/entry_points.txt
+writing requirements to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/requires.txt
+writing top-level names to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/top_level.txt
+reading manifest file '../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying crazyflie_dual_control/dual_controller.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+running install
+running install_lib
+copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/dual_controller.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/dual_controller.py to dual_controller.cpython-312.pyc
+running install_data
+copying config/crazyflies.yaml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/config
+running install_egg_info
+removing '/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info to /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing advanced_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+Installing battery_monitor script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+Installing dual_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+Installing gazebo_pose_sync script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+Installing keyboard_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+Installing simple_flight script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+writing list of installed files to '/workspace/ros2_ws/build/crazyflie_dual_control/install.log'

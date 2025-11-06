@@ -31,6 +31,16 @@ robot_types:
 all:
   firmware_logging:
     enabled: false  # Deshabilitado si no se usa logging
+  # Parámetros críticos del firmware - REQUERIDOS para takeoff/land/go_to
+  firmware_params:
+    commander:
+      enHighLevel: 1  # ⚠️ CRÍTICO: Habilita el High Level Commander (requerido para takeoff/land/go_to)
+      enAutoArm: 1  # ✅ ACTIVADO: Habilita auto-arm (0=deshabilitado, 1=habilitado)
+      # Con auto-arm activo, el drone se armará automáticamente cuando esté listo
+      # No se requiere llamar al servicio arm manualmente
+    stabilizer:
+      estimator: 2  # 1: complementary, 2: kalman (recomendado: kalman)
+      controller: 2  # 1: PID, 2: mellinger (recomendado: mellinger)
   reference_frame: "world"
   broadcasts:
     num_repeats: 15
