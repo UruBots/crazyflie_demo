@@ -56,7 +56,7 @@ class DualCrazyflieController(Node):
         try:
             # Buscar servicios de takeoff para encontrar nombres de robots
             # Esperar un poco para que los servicios estén disponibles
-            time.sleep(2.0)  # Dar tiempo al servidor para iniciar
+            time.sleep(5.0)  # Dar tiempo al servidor para iniciar (aumentado de 2.0 a 5.0)
             
             # get_service_names_and_types() retorna lista de tuplas (nombre, [tipos])
             service_list = self.get_service_names_and_types()
@@ -128,26 +128,26 @@ class DualCrazyflieController(Node):
                 VelocityWorld, f'/{drone_id}/cmd_velocity_world', 10
             )
         
-        # Esperar servicios con timeout más largo
+        # Esperar servicios con timeout más largo (aumentado de 10.0 a 20.0 segundos)
         all_available = True
         for drone_id in self.drone_ids:
             self.get_logger().info(f'Esperando servicios para {drone_id}...')
             
             # Esperar servicios de takeoff
-            if not self.takeoff_clients[drone_id].wait_for_service(timeout_sec=10.0):
+            if not self.takeoff_clients[drone_id].wait_for_service(timeout_sec=20.0):
                 self.get_logger().error(f'Servicio takeoff no disponible para {drone_id}')
                 self.get_logger().error(f'Verifica que el servidor esté corriendo y que {drone_id} esté en el archivo de configuración')
                 all_available = False
                 continue
                 
             # Esperar servicios de land
-            if not self.land_clients[drone_id].wait_for_service(timeout_sec=10.0):
+            if not self.land_clients[drone_id].wait_for_service(timeout_sec=20.0):
                 self.get_logger().error(f'Servicio land no disponible para {drone_id}')
                 all_available = False
                 continue
                 
             # Esperar servicios de goto
-            if not self.goto_clients[drone_id].wait_for_service(timeout_sec=10.0):
+            if not self.goto_clients[drone_id].wait_for_service(timeout_sec=20.0):
                 self.get_logger().error(f'Servicio goto no disponible para {drone_id}')
                 all_available = False
                 continue
@@ -205,17 +205,27 @@ class DualCrazyflieController(Node):
         all_armed = True
         for drone_id, future in futures:
             self.get_logger().info(f'  Esperando respuesta de armado de {drone_id}...')
-            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=10.0)  # Aumentado a 10 segundos
             if future.done():
                 try:
                     response = future.result()
                     self.get_logger().info(f'  ✅ {drone_id} ARMADO EXITOSAMENTE')
+                    self.get_logger().info(f'     Respuesta del servicio recibida correctamente')
+                    # El servicio arm no retorna información útil, solo confirma que se envió el comando
+                    # El drone debería estar armado ahora, pero no hay forma de verificar el estado directamente
                 except Exception as e:
                     self.get_logger().error(f'  ❌ Error en respuesta de armado de {drone_id}: {e}')
+                    self.get_logger().error(f'     Tipo de error: {type(e).__name__}')
+                    import traceback
+                    self.get_logger().debug(f'     Traceback: {traceback.format_exc()}')
                     all_armed = False
             else:
                 self.get_logger().error(f'  ❌ TIMEOUT esperando respuesta de armado de {drone_id}')
-                self.get_logger().error(f'     El servicio no respondió en 5 segundos')
+                self.get_logger().error(f'     El servicio no respondió en 10 segundos')
+                self.get_logger().error(f'     Posibles causas:')
+                self.get_logger().error(f'     1. El servidor no está procesando el comando')
+                self.get_logger().error(f'     2. El drone no está conectado o no responde')
+                self.get_logger().error(f'     3. Problema de comunicación con el drone')
                 all_armed = False
         
         if all_armed:
@@ -224,6 +234,7 @@ class DualCrazyflieController(Node):
             self.get_logger().error('❌ ALGUNOS DRONES NO SE ARMARON')
         
         # Esperar un poco para que los motores se estabilicen
+        # Nota: Este tiempo puede ser aumentado en takeoff_all() si es hardware real
         self.get_logger().info('⏳ Esperando 2 segundos para estabilización de motores...')
         time.sleep(2.0)
         
@@ -241,8 +252,20 @@ class DualCrazyflieController(Node):
             if drone_id not in self.takeoff_clients:
                 self.get_logger().error(f'❌ Cliente takeoff no existe para {drone_id}')
                 return False
-            if not self.takeoff_clients[drone_id].service_is_ready():
-                self.get_logger().error(f'❌ Servicio takeoff no está listo para {drone_id}')
+            # Verificar múltiples veces con espera si es necesario
+            max_retries = 3
+            service_ready = False
+            for retry in range(max_retries):
+                if self.takeoff_clients[drone_id].service_is_ready():
+                    service_ready = True
+                    break
+                else:
+                    if retry < max_retries - 1:
+                        self.get_logger().warn(f'  ⚠️  Servicio takeoff no listo para {drone_id}, reintentando en 1 segundo... (intento {retry + 1}/{max_retries})')
+                        time.sleep(1.0)
+            
+            if not service_ready:
+                self.get_logger().error(f'❌ Servicio takeoff no está listo para {drone_id} después de {max_retries} intentos')
                 self.get_logger().error(f'   Verifica que el servidor esté corriendo y que {drone_id} esté conectado')
                 return False
             self.get_logger().info(f'  ✅ Servicio takeoff disponible para {drone_id}')
@@ -256,17 +279,54 @@ class DualCrazyflieController(Node):
         self.get_logger().info('      4. Las URIs en crazyflies.yaml sean correctas')
         time.sleep(1.0)  # Dar tiempo para leer
         
-        # Paso 1: Armar los drones (opcional - en simulación puede no estar disponible)
-        self.get_logger().info('\n📋 PASO 1: ARMANDO DRONES (si está disponible)...')
-        arm_success = self.arm_all()
-        if not arm_success:
-            # En simulación, el servicio arm puede no estar disponible
-            # Continuar de todas formas e intentar el takeoff
-            self.get_logger().warn('⚠️  No se pudo armar los drones')
-            self.get_logger().warn('   En simulación, el servicio arm puede no estar disponible')
-            self.get_logger().warn('   Continuando con takeoff de todas formas...')
+        # Paso 1: Armar los drones
+        # Detectar si el servicio arm está disponible para determinar si es hardware real o simulación
+        arm_service_available = False
+        for drone_id in self.drone_ids:
+            if drone_id in self.arm_clients:
+                if self.arm_clients[drone_id].service_is_ready():
+                    arm_service_available = True
+                    break
+        
+        if arm_service_available:
+            self.get_logger().info('\n📋 PASO 1: ARMANDO DRONES (OBLIGATORIO para hardware real)...')
+            self.get_logger().info('   Detectado: Servicio arm disponible → Hardware real')
+            arm_success = self.arm_all()
+            if not arm_success:
+                # Para hardware real, el arm es OBLIGATORIO
+                self.get_logger().error('❌ ERROR CRÍTICO: No se pudo armar los drones')
+                self.get_logger().error('   Para drones reales, el arm es OBLIGATORIO antes del takeoff')
+                self.get_logger().error('   Sin arm, los motores no se habilitan y el drone NO puede despegar')
+                self.get_logger().error('')
+                self.get_logger().error('   🔍 DIAGNÓSTICO:')
+                self.get_logger().error('   1. Verifica que los drones estén CONECTADOS y ENCENDIDOS')
+                self.get_logger().error('   2. Verifica que las URIs en crazyflies.yaml sean CORRECTAS')
+                self.get_logger().error('   3. Verifica que el servidor detecte los drones (revisa logs del servidor)')
+                self.get_logger().error('   4. Verifica que los drones tengan BATERÍA SUFICIENTE')
+                self.get_logger().error('   5. Verifica que los drones estén a menos de 5 metros de la antena')
+                self.get_logger().error('   6. Intenta armar manualmente: ros2 service call /cf1/arm crazyflie_interfaces/srv/Arm "{arm: true}"')
+                self.get_logger().error('')
+                self.get_logger().error('   ❌ ABORTANDO takeoff - No se puede continuar sin arm exitoso')
+                return False
+            else:
+                self.get_logger().info('✅ Drones armados correctamente')
+                # Esperar más tiempo para que los motores se estabilicen (especialmente importante para drones reales)
+                self.get_logger().info('⏳ Esperando 5 segundos adicionales para estabilización de motores...')
+                self.get_logger().info('   IMPORTANTE: Los motores deberían estar girando ahora')
+                self.get_logger().info('   Si no escuchas los motores girando, el arm puede no haber funcionado')
+                time.sleep(5.0)  # Aumentado a 5 segundos para dar más tiempo a los motores
         else:
-            self.get_logger().info('✅ Drones armados correctamente')
+            # En simulación, el servicio arm puede no estar disponible
+            self.get_logger().info('\n📋 PASO 1: ARMANDO DRONES (opcional en simulación)...')
+            self.get_logger().info('   Detectado: Servicio arm NO disponible → Modo simulación')
+            arm_success = self.arm_all()
+            if not arm_success:
+                self.get_logger().warn('⚠️  No se pudo armar los drones')
+                self.get_logger().warn('   En simulación, el servicio arm puede no estar disponible')
+                self.get_logger().warn('   Continuando con takeoff de todas formas...')
+            else:
+                self.get_logger().info('✅ Drones armados correctamente')
+                time.sleep(2.0)  # Tiempo estándar para simulación
         
         # Paso 2: Enviar comandos de despegue
         self.get_logger().info('\n📋 PASO 2: ENVIANDO COMANDOS DE DESPEGUE...')
@@ -275,7 +335,8 @@ class DualCrazyflieController(Node):
         
         # Duración del takeoff: tiempo suficiente para despegar del piso
         # NOTA: Una duración más larga da más tiempo para que los motores aceleren
-        takeoff_duration = 5.0  # Segundos - tiempo para que los drones despeguen completamente del piso
+        # Para drones reales, puede necesitar más tiempo para acelerar los motores
+        takeoff_duration = 7.0  # Aumentado de 5.0 a 7.0 segundos para dar más tiempo a los motores
         
         for drone_id in self.drone_ids:
             try:
@@ -306,19 +367,28 @@ class DualCrazyflieController(Node):
         all_success = True
         for drone_id, future in futures:
             self.get_logger().info(f'  Esperando respuesta de despegue de {drone_id}...')
-            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=10.0)  # Aumentado a 10 segundos
             if future.done():
                 try:
                     response = future.result()
                     self.get_logger().info(f'  ✅ {drone_id} CONFIRMADO DESPEGANDO a {height}m')
+                    self.get_logger().info(f'     El comando takeoff fue aceptado por el servidor')
                     self.drone_states[drone_id]['active'] = True
                     self.drone_states[drone_id]['position'][2] = height  # Actualizar altura esperada
                 except Exception as e:
                     self.get_logger().error(f'  ❌ Error en respuesta de despegue de {drone_id}: {e}')
+                    self.get_logger().error(f'     Tipo de error: {type(e).__name__}')
+                    import traceback
+                    self.get_logger().debug(f'     Traceback: {traceback.format_exc()}')
                     all_success = False
             else:
                 self.get_logger().error(f'  ❌ TIMEOUT esperando respuesta de despegue de {drone_id}')
-                self.get_logger().error(f'     El servicio no respondió en 5 segundos')
+                self.get_logger().error(f'     El servicio no respondió en 10 segundos')
+                self.get_logger().error(f'     Posibles causas:')
+                self.get_logger().error(f'     1. El servidor no está procesando el comando')
+                self.get_logger().error(f'     2. El drone no está conectado o no responde')
+                self.get_logger().error(f'     3. El drone no está armado correctamente')
+                self.get_logger().error(f'     4. Problema de comunicación con el drone')
                 all_success = False
         
         # Resumen final
@@ -601,6 +671,11 @@ def main(args=None):
     if not controller.wait_for_services():
         controller.get_logger().error('No se pudieron conectar todos los servicios')
         return
+    
+    # Espera adicional para que el sistema se estabilice completamente
+    controller.get_logger().info('⏳ Esperando 5 segundos adicionales para que el sistema se estabilice...')
+    time.sleep(5.0)
+    controller.get_logger().info('✅ Sistema estabilizado, iniciando patrón de vuelo')
     
     try:
         # Ejecutar patrón de vuelo demo

@@ -6,13 +6,13 @@ robots:
   cf1:
     enabled: true
     uri: radio://0/80/2M/E7E7E7E7E7  # Cambiar por la URI real de tu primer drone
-    initial_position: [0.0, 0.0, 0.05]  # Altura inicial ligeramente por encima del piso (5cm)
+    initial_position: [0.0, 0.0, 1.0]  # Altura inicial ligeramente por encima del piso (5cm)
     type: cf21  # Ver robot_types más abajo
     
   cf2:
     enabled: true
     uri: radio://0/80/2M/E7E7E7E7E8 # Cambiar por la URI real de tu segundo drone
-    initial_position: [1.0, 0.0, 0.05]  # Altura inicial ligeramente por encima del piso (5cm)
+    initial_position: [1.0, 0.0, 1.0]  # Altura inicial ligeramente por encima del piso (5cm)
     type: cf21  # Ver robot_types más abajo
 
 # Definición de tipos de robots
