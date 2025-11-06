@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  ros:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    command: ["/bin/bash", "-c", "sleep infinity"]
+
+    volumes:
+      - ./:/workspace:cached
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - XDG_RUNTIME_DIR=/tmp/runtime-root
+      - USB_DEVICE_PERMISSIONS=0666
+
+    network_mode: "host"
+    privileged: true
+
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+    devices:
+      - /dev/dri:/dev/dri   # acceso a drivers gráficos
+      - /dev/bus/usb:/dev/bus/usb   # acceso completo a dispositivos USB
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+
+networks:
+  default:
+    external: false

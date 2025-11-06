@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//launch/spawn_crazyflie_gz.launch.py
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//launch/view_crazyflie_launch.py
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//urdf/crazyflie_body.xacro
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/ccw_prop.dae
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/cf2_assembly.dae
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/cf2_assembly_with_props.dae
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/cw_prop.dae
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//rviz/crazyflie_body.rviz
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//config/ros_gz_crazyflie_bridge.yaml
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/ament_index/resource_index/package_run_dependencies/crazyflie_description
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/ament_index/resource_index/parent_prefix_path/crazyflie_description
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/path.sh
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/path.dsv
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.bash
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.sh
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.zsh
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.dsv
+-- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/package.dsv
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/ament_index/resource_index/packages/crazyflie_description
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/cmake/crazyflie_descriptionConfig.cmake
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/cmake/crazyflie_descriptionConfig-version.cmake
+-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/package.xml

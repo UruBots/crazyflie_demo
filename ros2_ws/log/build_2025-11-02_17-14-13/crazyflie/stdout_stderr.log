@@ -1,0 +1,67 @@
+[  5%] Built target teleop
+[ 27%] Built target crazyflieLinkCpp
+[ 35%] Built target crazyflie_cpp
+[ 45%] Built target scan
+[ 50%] Built target downloadUSDLogfile
+[ 60%] Built target reboot
+[ 60%] Built target listMemories
+[ 40%] Built target listParams
+[ 65%] Built target listLogVariables
+[ 75%] Built target console
+[ 75%] Built target log
+[ 80%] Built target battery
+[ 85%] Built target version
+[ 90%] Built target crazyflie_server
+[ 95%] Built target comCheck
+[100%] Built target setParam
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/comCheck
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/scan
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/battery
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/version
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/console
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/log
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/aideck_streamer.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/gui.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/lib/crazyflie/flash.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+-- Symlinking: /workspace/ros2_ws/install/crazyflie/share/crazyflie/package.xml

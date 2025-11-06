@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/workspace/ros2_ws/build/crazyflie_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy /usr/bin/cmake /workspace/ros2_ws/src/crazyflie-simulation/crazyflie_ws/src/crazyflie_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie_description
+[0.294s] -- The C compiler identification is GNU 13.3.0
+[0.295s] -- The CXX compiler identification is GNU 13.3.0
+[0.295s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.595s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.683s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.683s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.683s] -- Added test 'lint_cmake' to check CMake code style
+[0.684s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.685s] -- Added test 'xmllint' to check XML markup files
+[0.686s] -- Configuring done (0.7s)
+[0.688s] -- Generating done (0.0s)
+[0.689s] -- Build files have been written to: /workspace/ros2_ws/build/crazyflie_description
+[0.692s] Invoked command in '/workspace/ros2_ws/build/crazyflie_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy /usr/bin/cmake /workspace/ros2_ws/src/crazyflie-simulation/crazyflie_ws/src/crazyflie_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie_description
+[0.693s] Invoking command in '/workspace/ros2_ws/build/crazyflie_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/crazyflie_description -- -j16 -l16
+[0.725s] Invoked command in '/workspace/ros2_ws/build/crazyflie_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/crazyflie_description -- -j16 -l16
+[0.726s] Invoking command in '/workspace/ros2_ws/build/crazyflie_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros2_ws/build/crazyflie_description
+[0.731s] -- Install configuration: ""
+[0.732s] -- Execute custom install script
+[0.732s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//launch/spawn_crazyflie_gz.launch.py
+[0.739s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//launch/view_crazyflie_launch.py
+[0.746s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//urdf/crazyflie_body.xacro
+[0.753s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/ccw_prop.dae
+[0.760s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/cf2_assembly.dae
+[0.770s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/cf2_assembly_with_props.dae
+[0.776s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//meshes/collada_files/cw_prop.dae
+[0.783s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//rviz/crazyflie_body.rviz
+[0.790s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description//config/ros_gz_crazyflie_bridge.yaml
+[0.800s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/ament_index/resource_index/package_run_dependencies/crazyflie_description
+[0.807s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/ament_index/resource_index/parent_prefix_path/crazyflie_description
+[0.816s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/ament_prefix_path.sh
+[0.825s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/ament_prefix_path.dsv
+[0.835s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/path.sh
+[0.844s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/environment/path.dsv
+[0.854s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.bash
+[0.865s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.sh
+[0.874s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.zsh
+[0.883s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/local_setup.dsv
+[0.890s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/package.dsv
+[0.897s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/ament_index/resource_index/packages/crazyflie_description
+[0.911s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/cmake/crazyflie_descriptionConfig.cmake
+[0.932s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/cmake/crazyflie_descriptionConfig-version.cmake
+[0.939s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_description/share/crazyflie_description/package.xml
+[0.952s] Invoked command in '/workspace/ros2_ws/build/crazyflie_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros2_ws/build/crazyflie_description

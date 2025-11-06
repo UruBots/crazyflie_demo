@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/ros_gz_crazyflie_gazebo/ament_cmake_environment_hooks/local_setup.zsh

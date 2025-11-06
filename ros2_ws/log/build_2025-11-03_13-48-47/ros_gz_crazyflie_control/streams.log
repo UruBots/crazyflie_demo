@@ -1,0 +1,31 @@
+[1.229s] Invoking command in '/workspace/ros2_ws/build/ros_gz_crazyflie_control': PYTHONPATH=/workspace/ros2_ws/build/ros_gz_crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros2_ws/build/ros_gz_crazyflie_control/build
+[1.592s] running develop
+[1.769s] Removing /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros-gz-crazyflie-control.egg-link (link to .)
+[1.802s] Invoked command in '/workspace/ros2_ws/build/ros_gz_crazyflie_control' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ros_gz_crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros2_ws/build/ros_gz_crazyflie_control/build
+[1.803s] Invoking command in '/workspace/ros2_ws/src/ros_gz_crazyflie/ros_gz_crazyflie_control': PYTHONPATH=/workspace/ros2_ws/build/ros_gz_crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_gz_crazyflie_control build --build-base /workspace/ros2_ws/build/ros_gz_crazyflie_control/build install --record /workspace/ros2_ws/build/ros_gz_crazyflie_control/install.log --single-version-externally-managed install_data --force
+[2.041s] running egg_info
+[2.056s] writing ../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/PKG-INFO
+[2.056s] writing dependency_links to ../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/dependency_links.txt
+[2.056s] writing entry points to ../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/entry_points.txt
+[2.057s] writing requirements to ../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/requires.txt
+[2.057s] writing top-level names to ../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/top_level.txt
+[2.095s] reading manifest file '../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/SOURCES.txt'
+[2.095s] writing manifest file '../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info/SOURCES.txt'
+[2.095s] running build
+[2.096s] running build_py
+[2.096s] running install
+[2.106s] running install_lib
+[2.130s] creating /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros_gz_crazyflie_control
+[2.130s] copying /workspace/ros2_ws/build/ros_gz_crazyflie_control/build/lib/ros_gz_crazyflie_control/control_services.py -> /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros_gz_crazyflie_control
+[2.130s] copying /workspace/ros2_ws/build/ros_gz_crazyflie_control/build/lib/ros_gz_crazyflie_control/__init__.py -> /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros_gz_crazyflie_control
+[2.131s] byte-compiling /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros_gz_crazyflie_control/control_services.py to control_services.cpython-312.pyc
+[2.133s] byte-compiling /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros_gz_crazyflie_control/__init__.py to __init__.cpython-312.pyc
+[2.133s] running install_data
+[2.133s] copying resource/ros_gz_crazyflie_control -> /workspace/ros2_ws/install/ros_gz_crazyflie_control/share/ament_index/resource_index/packages
+[2.136s] copying package.xml -> /workspace/ros2_ws/install/ros_gz_crazyflie_control/share/ros_gz_crazyflie_control
+[2.136s] running install_egg_info
+[2.177s] Copying ../../../build/ros_gz_crazyflie_control/ros_gz_crazyflie_control.egg-info to /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros_gz_crazyflie_control-0.0.0-py3.12.egg-info
+[2.179s] running install_scripts
+[2.402s] Installing control_services script to /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/ros_gz_crazyflie_control
+[2.403s] writing list of installed files to '/workspace/ros2_ws/build/ros_gz_crazyflie_control/install.log'
+[2.445s] Invoked command in '/workspace/ros2_ws/src/ros_gz_crazyflie/ros_gz_crazyflie_control' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ros_gz_crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_gz_crazyflie_control build --build-base /workspace/ros2_ws/build/ros_gz_crazyflie_control/build install --record /workspace/ros2_ws/build/ros_gz_crazyflie_control/install.log --single-version-externally-managed install_data --force

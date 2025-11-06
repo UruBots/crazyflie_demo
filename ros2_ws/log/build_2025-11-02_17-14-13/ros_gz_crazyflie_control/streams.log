@@ -1,0 +1,17 @@
+[0.977s] Invoking command in '/workspace/ros2_ws/build/ros_gz_crazyflie_control': PYTHONPATH=/workspace/ros2_ws/build/ros_gz_crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/ros_gz_crazyflie_control/build --no-deps symlink_data
+[1.260s] running develop
+[1.376s] running egg_info
+[1.387s] writing ros_gz_crazyflie_control.egg-info/PKG-INFO
+[1.387s] writing dependency_links to ros_gz_crazyflie_control.egg-info/dependency_links.txt
+[1.388s] writing entry points to ros_gz_crazyflie_control.egg-info/entry_points.txt
+[1.388s] writing requirements to ros_gz_crazyflie_control.egg-info/requires.txt
+[1.388s] writing top-level names to ros_gz_crazyflie_control.egg-info/top_level.txt
+[1.412s] reading manifest file 'ros_gz_crazyflie_control.egg-info/SOURCES.txt'
+[1.413s] writing manifest file 'ros_gz_crazyflie_control.egg-info/SOURCES.txt'
+[1.425s] running build_ext
+[1.425s] Creating /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages/ros-gz-crazyflie-control.egg-link (link to .)
+[1.426s] Installing control_services script to /workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/ros_gz_crazyflie_control
+[1.426s] 
+[1.426s] Installed /workspace/ros2_ws/build/ros_gz_crazyflie_control
+[1.426s] running symlink_data
+[1.462s] Invoked command in '/workspace/ros2_ws/build/ros_gz_crazyflie_control' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ros_gz_crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/ros_gz_crazyflie_control/build --no-deps symlink_data

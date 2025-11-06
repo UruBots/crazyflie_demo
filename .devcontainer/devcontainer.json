@@ -1,0 +1,19 @@
+{
+    "name": "ROS2 Jazzy Devcontainer with RViz",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "ros",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "runServices": ["ros"],
+    "postCreateCommand": "bash -c 'chmod +x /workspace/install_crazyflie_dual_control.sh && /workspace/install_crazyflie_dual_control.sh'",
+    "postStartCommand": "bash -lc 'source /opt/ros/jazzy/setup.bash || true; if [ -f /workspace/install/setup.bash ]; then source /workspace/install/setup.bash; fi'",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-iot.vscode-ros",
+        "ms-python.python"
+    ],
+    "remoteUser": "root"
+}

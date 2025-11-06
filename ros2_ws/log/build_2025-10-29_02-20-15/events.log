@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'crazyflie'}
+[0.000454] (-) JobUnselected: {'identifier': 'crazyflie_examples'}
+[0.000599] (-) JobUnselected: {'identifier': 'crazyflie_interfaces'}
+[0.000661] (-) JobUnselected: {'identifier': 'crazyflie_py'}
+[0.000680] (-) JobUnselected: {'identifier': 'crazyflie_sim'}
+[0.000707] (crazyflie_dual_control) JobQueued: {'identifier': 'crazyflie_dual_control', 'dependencies': OrderedDict({'crazyflie_interfaces': '/workspace/ros2_ws/install/crazyflie_interfaces', 'crazyflie_py': '/workspace/ros2_ws/install/crazyflie_py', 'crazyflie_examples': '/workspace/ros2_ws/install/crazyflie_examples'})}
+[0.000738] (crazyflie_dual_control) JobStarted: {'identifier': 'crazyflie_dual_control'}
+[0.006753] (crazyflie_dual_control) JobEnded: {'identifier': 'crazyflie_dual_control', 'rc': 1}
+[0.017039] (-) EventReactorShutdown: {}

@@ -1,0 +1,61 @@
+[0.493s] Invoking command in '/workspace/ros2_ws/src/crazyflie_dual_control': PYTHONPATH=/workspace/ros2_ws/build/crazyflie_dual_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/crazyflie_dual_control build --build-base /workspace/ros2_ws/build/crazyflie_dual_control/build install --record /workspace/ros2_ws/build/crazyflie_dual_control/install.log --single-version-externally-managed install_data
+[0.639s] running egg_info
+[0.639s] creating ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info
+[0.647s] writing ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/PKG-INFO
+[0.648s] writing dependency_links to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/dependency_links.txt
+[0.648s] writing entry points to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/entry_points.txt
+[0.648s] writing requirements to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/requires.txt
+[0.648s] writing top-level names to ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/top_level.txt
+[0.649s] writing manifest file '../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/SOURCES.txt'
+[0.666s] reading manifest file '../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/SOURCES.txt'
+[0.666s] adding license file 'LICENSE'
+[0.666s] writing manifest file '../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.667s] running build_py
+[0.667s] creating /workspace/ros2_ws/build/crazyflie_dual_control/build
+[0.667s] creating /workspace/ros2_ws/build/crazyflie_dual_control/build/lib
+[0.667s] creating /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] copying crazyflie_dual_control/dual_controller.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] copying crazyflie_dual_control/battery_monitor.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] copying crazyflie_dual_control/simple_flight.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] copying crazyflie_dual_control/keyboard_controller.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] copying crazyflie_dual_control/advanced_controller.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] copying crazyflie_dual_control/__init__.py -> /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control
+[0.667s] running install
+[0.671s] running install_lib
+[0.679s] creating /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.679s] copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/dual_controller.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.680s] copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/battery_monitor.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.680s] copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/simple_flight.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.680s] copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/keyboard_controller.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.680s] copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/advanced_controller.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.680s] copying /workspace/ros2_ws/build/crazyflie_dual_control/build/lib/crazyflie_dual_control/__init__.py -> /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control
+[0.680s] byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/dual_controller.py to dual_controller.cpython-312.pyc
+[0.681s] byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/battery_monitor.py to battery_monitor.cpython-312.pyc
+[0.682s] byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/simple_flight.py to simple_flight.cpython-312.pyc
+[0.683s] byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/keyboard_controller.py to keyboard_controller.cpython-312.pyc
+[0.684s] byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/advanced_controller.py to advanced_controller.cpython-312.pyc
+[0.685s] byte-compiling /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control/__init__.py to __init__.cpython-312.pyc
+[0.686s] running install_data
+[0.686s] creating /workspace/ros2_ws/install/crazyflie_dual_control/share/ament_index
+[0.686s] creating /workspace/ros2_ws/install/crazyflie_dual_control/share/ament_index/resource_index
+[0.686s] creating /workspace/ros2_ws/install/crazyflie_dual_control/share/ament_index/resource_index/packages
+[0.686s] copying resource/crazyflie_dual_control -> /workspace/ros2_ws/install/crazyflie_dual_control/share/ament_index/resource_index/packages
+[0.686s] copying package.xml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control
+[0.686s] creating /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/launch
+[0.686s] copying launch/dual_crazyflies.launch.py -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/launch
+[0.686s] copying launch/simulation.launch.py -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/launch
+[0.686s] creating /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/config
+[0.687s] copying config/crazyflies.yaml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/config
+[0.687s] copying config/crazyflies_simulation.yaml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/config
+[0.687s] creating /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/rviz
+[0.687s] running install_egg_info
+[0.696s] Copying ../../build/crazyflie_dual_control/crazyflie_dual_control.egg-info to /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie_dual_control-0.0.0-py3.12.egg-info
+[0.696s] running install_scripts
+[0.763s] Installing advanced_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.763s] Installing battery_monitor script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.764s] Installing dual_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.764s] Installing keyboard_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.764s] Installing simple_flight script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.764s] writing list of installed files to '/workspace/ros2_ws/build/crazyflie_dual_control/install.log'
+[0.785s] Invoked command in '/workspace/ros2_ws/src/crazyflie_dual_control' returned '0': PYTHONPATH=/workspace/ros2_ws/build/crazyflie_dual_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/crazyflie_dual_control build --build-base /workspace/ros2_ws/build/crazyflie_dual_control/build install --record /workspace/ros2_ws/build/crazyflie_dual_control/install.log --single-version-externally-managed install_data

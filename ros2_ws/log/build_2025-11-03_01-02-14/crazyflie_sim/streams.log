@@ -1,0 +1,108 @@
+[0.240s] Invoking command in '/workspace/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/ros_gz_crazyflie_gazebo:/workspace/ros2_ws/install/crazyflie_description:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_bringup:/workspace/ros2_ws/install/ros_gz_crazyflie_bringup:/workspace/ros2_ws/install/crazyflie_sim:/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/ros_gz_crazyflie_control:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_dual_control:/workspace/ros2_ws/build/ros_gz_crazyflie_control:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_py:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[0.297s] Built target ament_cmake_python_symlink_crazyflie_sim
+[0.299s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[0.556s] running egg_info
+[0.570s] writing crazyflie_sim.egg-info/PKG-INFO
+[0.570s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[0.571s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[0.571s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[0.596s] running install_scripts
+[0.613s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.613s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.638s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[0.656s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.656s] !!
+[0.656s] 
+[0.656s]         ********************************************************************************
+[0.656s]         Please avoid running ``setup.py`` directly.
+[0.657s]         Instead, use pypa/build, pypa/installer or other
+[0.657s]         standards-based tools.
+[0.657s] 
+[0.657s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.657s]         ********************************************************************************
+[0.657s] 
+[0.657s] !!
+[0.657s]   self.initialize_options()
+[0.664s] running egg_info
+[0.726s] writing crazyflie_sim.egg-info/PKG-INFO
+[0.727s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[0.727s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[0.727s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[0.787s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.787s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.964s] Installing crazyflie_server script to scripts
+[1.017s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[1.034s] Invoked command in '/workspace/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/ros_gz_crazyflie_gazebo:/workspace/ros2_ws/install/crazyflie_description:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_bringup:/workspace/ros2_ws/install/ros_gz_crazyflie_bringup:/workspace/ros2_ws/install/crazyflie_sim:/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/ros_gz_crazyflie_control:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_dual_control:/workspace/ros2_ws/build/ros_gz_crazyflie_control:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_py:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[1.035s] Invoking command in '/workspace/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/ros_gz_crazyflie_gazebo:/workspace/ros2_ws/install/crazyflie_description:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_bringup:/workspace/ros2_ws/install/ros_gz_crazyflie_bringup:/workspace/ros2_ws/install/crazyflie_sim:/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/ros_gz_crazyflie_control:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_dual_control:/workspace/ros2_ws/build/ros_gz_crazyflie_control:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_py:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/ros2_ws/build/crazyflie_sim
+[1.047s] -- Install configuration: ""
+[1.047s] -- Execute custom install script
+[1.048s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[1.048s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[1.049s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/PKG-INFO
+[1.052s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/SOURCES.txt
+[1.052s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/dependency_links.txt
+[1.053s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/entry_points.txt
+[1.053s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/top_level.txt
+[1.053s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[1.053s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/__init__.py
+[1.053s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/dynobench.py
+[1.054s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/neuralswarm.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/none.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/np.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/pinocchio.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_server.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_sil.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/sim_data_types.py
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/README.md
+[1.055s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/blender.py
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/README.md
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/env.jpg
+[1.056s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model/cf.obj
+[1.057s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/pdf.py
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/record_states.py
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/rviz.py
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[1.058s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[1.059s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[1.059s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[1.059s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[1.059s] -- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[1.062s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[1.063s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[1.063s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[1.063s] -- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[1.110s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim'...
+[1.110s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/dynobench'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/pinocchio'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data'...
+[1.111s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env'...
+[1.112s] Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model'...
+[1.131s] Invoked command in '/workspace/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/ros_gz_crazyflie_gazebo:/workspace/ros2_ws/install/crazyflie_description:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_bringup:/workspace/ros2_ws/install/ros_gz_crazyflie_bringup:/workspace/ros2_ws/install/crazyflie_sim:/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/ros_gz_crazyflie_control:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_dual_control:/workspace/ros2_ws/install/crazyflie_py:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_dual_control:/workspace/ros2_ws/build/ros_gz_crazyflie_control:/workspace/ros2_ws/install/ros_gz_crazyflie_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_ros2_multiranger_simple_mapper:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_simple_mapper/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_py:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/ros2_ws/build/crazyflie_sim

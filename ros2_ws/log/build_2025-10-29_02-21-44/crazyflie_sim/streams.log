@@ -1,0 +1,56 @@
+[0.131s] Invoking command in '/workspace/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/crazyflie_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/crazyflie_py:/workspace/ros2_ws/install/crazyflie_dual_control:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /workspace/ros2_ws/src/crazyswarm2/crazyflie_sim -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie_sim
+[0.181s] -- The C compiler identification is GNU 13.3.0
+[0.230s] -- The CXX compiler identification is GNU 13.3.0
+[0.248s] -- Detecting C compiler ABI info
+[0.349s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.461s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.468s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.584s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.798s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[1.340s] -- Configuring done (1.2s)
+[1.342s] -- Generating done (0.0s)
+[1.345s] -- Build files have been written to: /workspace/ros2_ws/build/crazyflie_sim
+[1.386s] Invoked command in '/workspace/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/crazyflie_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/crazyflie_py:/workspace/ros2_ws/install/crazyflie_dual_control:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /workspace/ros2_ws/src/crazyswarm2/crazyflie_sim -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie_sim
+[1.387s] Invoking command in '/workspace/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/workspace/ros2_ws/install/crazyflie_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros2_ws/install/crazyflie_py:/workspace/ros2_ws/install/crazyflie_dual_control:/opt/ros/jazzy PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[1.442s] Built target ament_cmake_python_copy_crazyflie_sim
+[1.442s] Built target ament_cmake_python_copy_crazyflie_sim_setup
+[1.582s] running install_scripts
+[1.588s] running egg_info
+[1.589s] creating crazyflie_sim.egg-info
+[1.598s] writing crazyflie_sim.egg-info/PKG-INFO
+[1.599s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[1.599s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[1.599s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[1.599s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.600s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.600s] !!
+[1.600s] 
+[1.600s]         ********************************************************************************
+[1.600s]         Please avoid running ``setup.py`` directly.
+[1.600s]         Instead, use pypa/build, pypa/installer or other
+[1.600s]         standards-based tools.
+[1.600s] 
+[1.601s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.601s]         ********************************************************************************
+[1.601s] 
+[1.601s] !!
+[1.601s]   self.initialize_options()
+[1.604s] running egg_info
+[1.624s] writing crazyflie_sim.egg-info/PKG-INFO
+[1.625s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[1.625s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[1.625s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[1.627s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.628s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.645s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.645s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.651s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[1.706s] Installing crazyflie_server script to scripts
+[1.730s] Built target ament_cmake_python_build_crazyflie_sim_scripts

@@ -1,0 +1,15 @@
+[0.657s] Invoking command in '/workspace/ros2_ws/build/crazyflie_py': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/crazyflie_py/build --no-deps symlink_data
+[0.887s] running develop
+[0.982s] running egg_info
+[0.992s] writing crazyflie_py.egg-info/PKG-INFO
+[0.992s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[0.992s] writing requirements to crazyflie_py.egg-info/requires.txt
+[0.992s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[1.012s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.013s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.024s] running build_ext
+[1.024s] Creating /workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages/crazyflie-py.egg-link (link to .)
+[1.025s] 
+[1.025s] Installed /workspace/ros2_ws/build/crazyflie_py
+[1.025s] running symlink_data
+[1.052s] Invoked command in '/workspace/ros2_ws/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/crazyflie_py/build --no-deps symlink_data

@@ -1,0 +1,112 @@
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_position_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:160: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_position_s.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/srv/_go_to_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:216: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_go_to_s.c.o] Error 1
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_log_data_generic_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_velocity_world_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_full_state_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:104: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_full_state_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:118: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_log_data_generic_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:202: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_velocity_world_s.c.o] Error 1
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/srv/_land_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:230: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_land_s.c.o] Error 1
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:188: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c.o] Error 1
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_hover_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_status_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_log_block_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:132: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_hover_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:146: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_log_block_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:174: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_status_s.c.o] Error 1
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_array_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_array_s.c.o] Error 1
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/srv/_start_trajectory_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/workspace/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/srv/_set_group_mask_s.c:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+   11 | #include "numpy/ndarrayobject.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:244: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:272: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_start_trajectory_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/build.make:258: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_set_group_mask_s.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:506: CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+[  0%] Built target crazyflie_interfaces__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_symlink_crazyflie_interfaces
+[  0%] Built target crazyflie_interfaces__cpp
+[ 28%] Built target crazyflie_interfaces__rosidl_generator_c
+[ 38%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[ 48%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[ 58%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[ 68%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[ 87%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 86%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[ 87%] Built target crazyflie_interfaces
+[ 87%] Built target crazyflie_interfaces__py
+[ 87%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_array_s.c.o
+[ 88%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_s.c.o
+[ 89%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c.o
+[ 89%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_hover_s.c.o
+[ 90%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_full_state_s.c.o
+[ 90%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_position_s.c.o
+[ 91%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_log_data_generic_s.c.o
+[ 91%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_log_block_s.c.o
+[ 91%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_status_s.c.o
+[ 91%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_velocity_world_s.c.o
+[ 92%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_go_to_s.c.o
+[ 92%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_land_s.c.o
+[ 93%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c.o
+[ 93%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_set_group_mask_s.c.o
+running egg_info
+[ 93%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_start_trajectory_s.c.o
+writing crazyflie_interfaces.egg-info/PKG-INFO
+writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[ 93%] Built target ament_cmake_python_build_crazyflie_interfaces_egg

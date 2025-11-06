@@ -1,0 +1,1004 @@
+[0.000000] (-) TimerEvent: {}
+[0.000139] (-) JobUnselected: {'identifier': 'crazyflie'}
+[0.000297] (-) JobUnselected: {'identifier': 'crazyflie_description'}
+[0.000443] (-) JobUnselected: {'identifier': 'crazyflie_dual_control'}
+[0.000505] (-) JobUnselected: {'identifier': 'crazyflie_examples'}
+[0.000527] (-) JobUnselected: {'identifier': 'crazyflie_py'}
+[0.000551] (-) JobUnselected: {'identifier': 'crazyflie_ros2_multiranger_bringup'}
+[0.000720] (-) JobUnselected: {'identifier': 'crazyflie_ros2_multiranger_simple_mapper'}
+[0.000744] (-) JobUnselected: {'identifier': 'crazyflie_ros2_multiranger_wall_following'}
+[0.000761] (-) JobUnselected: {'identifier': 'crazyflie_sim'}
+[0.000971] (-) JobUnselected: {'identifier': 'ros_gz_crazyflie_bringup'}
+[0.001104] (-) JobUnselected: {'identifier': 'ros_gz_crazyflie_control'}
+[0.001125] (-) JobUnselected: {'identifier': 'ros_gz_crazyflie_gazebo'}
+[0.001137] (crazyflie_interfaces) JobQueued: {'identifier': 'crazyflie_interfaces', 'dependencies': OrderedDict()}
+[0.001149] (crazyflie_interfaces) JobStarted: {'identifier': 'crazyflie_interfaces'}
+[0.007358] (crazyflie_interfaces) JobProgress: {'identifier': 'crazyflie_interfaces', 'progress': 'cmake'}
+[0.007832] (crazyflie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros2_ws/src/crazyswarm2/crazyflie_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie_interfaces'], 'cwd': '/workspace/ros2_ws/build/crazyflie_interfaces', 'env': OrderedDict({'VSCODE_CWD': '/workspace', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'utec-G5-MF', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-75ae06c0-f46a-4a3d-a16e-92a44f3c59e7.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'COMPOSER_NO_INTERACTION': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/cursor-remote-ssh-3b2ab4f1-13a6-4e53-9d50-4fc98e42e232.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros2_ws/build/crazyflie_interfaces', 'LC_ALL': 'C.UTF-8', 'USB_DEVICE_PERMISSIONS': '0666', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.058608] (crazyflie_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099858] (-) TimerEvent: {}
+[0.100464] (crazyflie_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.114151] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.192595] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.200067] (-) TimerEvent: {}
+[0.202287] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.202615] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.202786] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.210564] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300187] (-) TimerEvent: {}
+[0.300347] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.306541] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.306809] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.306917] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.310050] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400389] (-) TimerEvent: {}
+[0.424183] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.479766] (crazyflie_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500486] (-) TimerEvent: {}
+[0.519159] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.551166] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.563272] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.576546] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.591398] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600595] (-) TimerEvent: {}
+[0.605408] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.631936] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.645367] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.700679] (-) TimerEvent: {}
+[0.800894] (-) TimerEvent: {}
+[0.901098] (-) TimerEvent: {}
+[1.001295] (-) TimerEvent: {}
+[1.101490] (-) TimerEvent: {}
+[1.185510] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[1.188428] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[1.191645] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[1.194908] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.201572] (-) TimerEvent: {}
+[1.301733] (-) TimerEvent: {}
+[1.402007] (-) TimerEvent: {}
+[1.502301] (-) TimerEvent: {}
+[1.602566] (-) TimerEvent: {}
+[1.702745] (-) TimerEvent: {}
+[1.802917] (-) TimerEvent: {}
+[1.845420] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.903042] (-) TimerEvent: {}
+[2.003227] (-) TimerEvent: {}
+[2.089371] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.093398] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.103440] (-) TimerEvent: {}
+[2.199424] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.203523] (-) TimerEvent: {}
+[2.303669] (-) TimerEvent: {}
+[2.403817] (-) TimerEvent: {}
+[2.504844] (-) TimerEvent: {}
+[2.514986] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.561358] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)\n'}
+[2.564212] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)\n'}
+[2.573018] (crazyflie_interfaces) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.604967] (-) TimerEvent: {}
+[2.625807] (crazyflie_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.636301] (crazyflie_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/crazyflie_interfaces\n'}
+[2.644679] (crazyflie_interfaces) CommandEnded: {'returncode': 0}
+[2.645085] (crazyflie_interfaces) JobProgress: {'identifier': 'crazyflie_interfaces', 'progress': 'build'}
+[2.645489] (crazyflie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/crazyflie_interfaces', '--', '-j16', '-l16'], 'cwd': '/workspace/ros2_ws/build/crazyflie_interfaces', 'env': OrderedDict({'VSCODE_CWD': '/workspace', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'utec-G5-MF', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-75ae06c0-f46a-4a3d-a16e-92a44f3c59e7.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'COMPOSER_NO_INTERACTION': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/cursor-remote-ssh-3b2ab4f1-13a6-4e53-9d50-4fc98e42e232.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros2_ws/build/crazyflie_interfaces', 'LC_ALL': 'C.UTF-8', 'USB_DEVICE_PERMISSIONS': '0666', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.697166] (crazyflie_interfaces) StdoutLine: {'line': b'[  0%] Generating type hashes for ROS interfaces\n'}
+[2.705065] (-) TimerEvent: {}
+[2.707217] (crazyflie_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_crazyflie_interfaces\n'}
+[2.805151] (-) TimerEvent: {}
+[2.850215] (crazyflie_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.850811] (crazyflie_interfaces) StdoutLine: {'line': b'creating crazyflie_interfaces.egg-info\n'}
+[2.860942] (crazyflie_interfaces) StdoutLine: {'line': b'writing crazyflie_interfaces.egg-info/PKG-INFO\n'}
+[2.861180] (crazyflie_interfaces) StdoutLine: {'line': b'writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt\n'}
+[2.861294] (crazyflie_interfaces) StdoutLine: {'line': b'writing top-level names to crazyflie_interfaces.egg-info/top_level.txt\n'}
+[2.861392] (crazyflie_interfaces) StdoutLine: {'line': b"writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'\n"}
+[2.889628] (crazyflie_interfaces) StdoutLine: {'line': b"reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'\n"}
+[2.889969] (crazyflie_interfaces) StdoutLine: {'line': b"writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'\n"}
+[2.905290] (-) TimerEvent: {}
+[2.912894] (crazyflie_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_crazyflie_interfaces_egg\n'}
+[3.005480] (-) TimerEvent: {}
+[3.084379] (crazyflie_interfaces) StdoutLine: {'line': b'[  0%] Built target crazyflie_interfaces__rosidl_generator_type_description\n'}
+[3.097599] (crazyflie_interfaces) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[3.105571] (-) TimerEvent: {}
+[3.108583] (crazyflie_interfaces) StdoutLine: {'line': b'[  1%] Generating C++ code for ROS interfaces\n'}
+[3.205683] (-) TimerEvent: {}
+[3.305949] (-) TimerEvent: {}
+[3.406111] (-) TimerEvent: {}
+[3.506273] (-) TimerEvent: {}
+[3.606496] (-) TimerEvent: {}
+[3.706833] (-) TimerEvent: {}
+[3.806991] (-) TimerEvent: {}
+[3.907181] (-) TimerEvent: {}
+[4.007356] (-) TimerEvent: {}
+[4.108487] (-) TimerEvent: {}
+[4.131923] (crazyflie_interfaces) StdoutLine: {'line': b'[  1%] Built target crazyflie_interfaces__cpp\n'}
+[4.208571] (-) TimerEvent: {}
+[4.308758] (-) TimerEvent: {}
+[4.408957] (-) TimerEvent: {}
+[4.428366] (crazyflie_interfaces) StdoutLine: {'line': b'[  1%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/connection_statistics__type_support.c.o\n'}
+[4.428766] (crazyflie_interfaces) StdoutLine: {'line': b'[  1%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.c.o\n'}
+[4.429968] (crazyflie_interfaces) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/hover__functions.c.o\n'}
+[4.430177] (crazyflie_interfaces) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_data_generic__description.c.o\n'}
+[4.430264] (crazyflie_interfaces) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/full_state__type_support.c.o\n'}
+[4.431216] (crazyflie_interfaces) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/connection_statistics_array__description.c.o\n'}
+[4.431430] (crazyflie_interfaces) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/connection_statistics_array__functions.c.o\n'}
+[4.432200] (crazyflie_interfaces) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/hover__description.c.o\n'}
+[4.432373] (crazyflie_interfaces) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_data_generic__functions.c.o\n'}
+[4.433502] (crazyflie_interfaces) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/hover__type_support.c.o\n'}
+[4.433698] (crazyflie_interfaces) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/connection_statistics__description.c.o\n'}
+[4.433769] (crazyflie_interfaces) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/connection_statistics__functions.c.o\n'}
+[4.435178] (crazyflie_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/full_state__description.c.o\n'}
+[4.435521] (crazyflie_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_data_generic__type_support.c.o\n'}
+[4.439259] (crazyflie_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_block__description.c.o\n'}
+[4.439514] (crazyflie_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/full_state__functions.c.o\n'}
+[4.475944] (crazyflie_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_block__functions.c.o\n'}
+[4.476617] (crazyflie_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/position__functions.c.o\n'}
+[4.476712] (crazyflie_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_block__type_support.c.o\n'}
+[4.479819] (crazyflie_interfaces) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/status__functions.c.o\n'}
+[4.480278] (crazyflie_interfaces) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/position__type_support.c.o\n'}
+[4.482734] (crazyflie_interfaces) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/status__description.c.o\n'}
+[4.487295] (crazyflie_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/position__description.c.o\n'}
+[4.490070] (crazyflie_interfaces) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/status__type_support.c.o\n'}
+[4.492884] (crazyflie_interfaces) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__description.c.o\n'}
+[4.493312] (crazyflie_interfaces) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.c.o\n'}
+[4.501903] (crazyflie_interfaces) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/velocity_world__description.c.o\n'}
+[4.504338] (crazyflie_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.c.o\n'}
+[4.512658] (crazyflie_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/velocity_world__functions.c.o\n'}
+[4.513023] (-) TimerEvent: {}
+[4.514645] (crazyflie_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/go_to__description.c.o\n'}
+[4.514908] (crazyflie_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/velocity_world__type_support.c.o\n'}
+[4.521965] (crazyflie_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/go_to__type_support.c.o\n'}
+[4.524085] (crazyflie_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/go_to__functions.c.o\n'}
+[4.531723] (crazyflie_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/land__functions.c.o\n'}
+[4.533053] (crazyflie_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/land__type_support.c.o\n'}
+[4.539236] (crazyflie_interfaces) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/land__description.c.o\n'}
+[4.540262] (crazyflie_interfaces) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__description.c.o\n'}
+[4.549624] (crazyflie_interfaces) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.c.o\n'}
+[4.553085] (crazyflie_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.c.o\n'}
+[4.553426] (crazyflie_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/set_group_mask__functions.c.o\n'}
+[4.553530] (crazyflie_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/set_group_mask__type_support.c.o\n'}
+[4.555090] (crazyflie_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/set_group_mask__description.c.o\n'}
+[4.560479] (crazyflie_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/start_trajectory__description.c.o\n'}
+[4.576842] (crazyflie_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/start_trajectory__type_support.c.o\n'}
+[4.579605] (crazyflie_interfaces) StdoutLine: {'line': b'[ 19%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/start_trajectory__functions.c.o\n'}
+[4.593586] (crazyflie_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/stop__description.c.o\n'}
+[4.597733] (crazyflie_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/stop__type_support.c.o\n'}
+[4.601725] (crazyflie_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/stop__functions.c.o\n'}
+[4.602635] (crazyflie_interfaces) StdoutLine: {'line': b'[ 21%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/takeoff__functions.c.o\n'}
+[4.602847] (crazyflie_interfaces) StdoutLine: {'line': b'[ 21%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/takeoff__description.c.o\n'}
+[4.610797] (crazyflie_interfaces) StdoutLine: {'line': b'[ 22%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/takeoff__type_support.c.o\n'}
+[4.617487] (crazyflie_interfaces) StdoutLine: {'line': b'[ 22%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/update_params__description.c.o\n'}
+[4.617776] (-) TimerEvent: {}
+[4.617803] (crazyflie_interfaces) StdoutLine: {'line': b'[ 23%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/update_params__type_support.c.o\n'}
+[4.617916] (crazyflie_interfaces) StdoutLine: {'line': b'[ 23%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/update_params__functions.c.o\n'}
+[4.622676] (crazyflie_interfaces) StdoutLine: {'line': b'[ 23%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/upload_trajectory__description.c.o\n'}
+[4.632328] (crazyflie_interfaces) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/upload_trajectory__functions.c.o\n'}
+[4.643347] (crazyflie_interfaces) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.c.o\n'}
+[4.651081] (crazyflie_interfaces) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/remove_logging__functions.c.o\n'}
+[4.653172] (crazyflie_interfaces) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/add_logging__functions.c.o\n'}
+[4.655096] (crazyflie_interfaces) StdoutLine: {'line': b'[ 26%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/add_logging__description.c.o\n'}
+[4.656035] (crazyflie_interfaces) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/remove_logging__type_support.c.o\n'}
+[4.656559] (crazyflie_interfaces) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/remove_logging__description.c.o\n'}
+[4.678842] (crazyflie_interfaces) StdoutLine: {'line': b'[ 27%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/add_logging__type_support.c.o\n'}
+[4.685364] (crazyflie_interfaces) StdoutLine: {'line': b'[ 28%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/arm__type_support.c.o\n'}
+[4.685951] (crazyflie_interfaces) StdoutLine: {'line': b'[ 28%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/arm__description.c.o\n'}
+[4.690741] (crazyflie_interfaces) StdoutLine: {'line': b'[ 28%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/arm__functions.c.o\n'}
+[4.717900] (-) TimerEvent: {}
+[4.747028] (crazyflie_interfaces) StdoutLine: {'line': b'[ 28%] Linking C shared library libcrazyflie_interfaces__rosidl_generator_c.so\n'}
+[4.789976] (crazyflie_interfaces) StdoutLine: {'line': b'[ 28%] Built target crazyflie_interfaces__rosidl_generator_c\n'}
+[4.801470] (crazyflie_interfaces) StdoutLine: {'line': b'[ 28%] Generating C type support dispatch for ROS interfaces\n'}
+[4.801948] (crazyflie_interfaces) StdoutLine: {'line': b'[ 29%] Generating C++ introspection for ROS interfaces\n'}
+[4.802850] (crazyflie_interfaces) StdoutLine: {'line': b'[ 29%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.805116] (crazyflie_interfaces) StdoutLine: {'line': b'[ 29%] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.805284] (crazyflie_interfaces) StdoutLine: {'line': b'[ 30%] Generating C introspection for ROS interfaces\n'}
+[4.806307] (crazyflie_interfaces) StdoutLine: {'line': b'[ 30%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.818029] (-) TimerEvent: {}
+[4.918218] (-) TimerEvent: {}
+[5.018396] (-) TimerEvent: {}
+[5.118585] (-) TimerEvent: {}
+[5.218755] (-) TimerEvent: {}
+[5.318971] (-) TimerEvent: {}
+[5.419171] (-) TimerEvent: {}
+[5.519938] (-) TimerEvent: {}
+[5.553686] (crazyflie_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/connection_statistics__type_support.cpp.o\n'}
+[5.553941] (crazyflie_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/trajectory_polynomial_piece__type_support.cpp.o\n'}
+[5.554072] (crazyflie_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/go_to__type_support.cpp.o\n'}
+[5.554192] (crazyflie_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/position__type_support.cpp.o\n'}
+[5.554501] (crazyflie_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/full_state__type_support.cpp.o\n'}
+[5.554647] (crazyflie_interfaces) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/status__type_support.cpp.o\n'}
+[5.555345] (crazyflie_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/log_data_generic__type_support.cpp.o\n'}
+[5.555510] (crazyflie_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/connection_statistics_array__type_support.cpp.o\n'}
+[5.556887] (crazyflie_interfaces) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/log_block__type_support.cpp.o\n'}
+[5.557829] (crazyflie_interfaces) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/hover__type_support.cpp.o\n'}
+[5.558070] (crazyflie_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/velocity_world__type_support.cpp.o\n'}
+[5.615067] (crazyflie_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/land__type_support.cpp.o\n'}
+[5.615270] (crazyflie_interfaces) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/notify_setpoints_stop__type_support.cpp.o\n'}
+[5.620840] (crazyflie_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/start_trajectory__type_support.cpp.o\n'}
+[5.621057] (-) TimerEvent: {}
+[5.621080] (crazyflie_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/stop__type_support.cpp.o\n'}
+[5.622761] (crazyflie_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/takeoff__type_support.cpp.o\n'}
+[5.624323] (crazyflie_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/update_params__type_support.cpp.o\n'}
+[5.624574] (crazyflie_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/set_group_mask__type_support.cpp.o\n'}
+[5.624696] (crazyflie_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/upload_trajectory__type_support.cpp.o\n'}
+[5.627846] (crazyflie_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/remove_logging__type_support.cpp.o\n'}
+[5.668527] (crazyflie_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/add_logging__type_support.cpp.o\n'}
+[5.672334] (crazyflie_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/srv/arm__type_support.cpp.o\n'}
+[5.721426] (-) TimerEvent: {}
+[5.738089] (crazyflie_interfaces) StdoutLine: {'line': b'[ 40%] Linking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_c.so\n'}
+[5.759938] (crazyflie_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/full_state__type_support.cpp.o\n'}
+[5.760249] (crazyflie_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.cpp.o\n'}
+[5.760335] (crazyflie_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/log_block__type_support.cpp.o\n'}
+[5.761710] (crazyflie_interfaces) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/velocity_world__type_support.cpp.o\n'}
+[5.762260] (crazyflie_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/hover__type_support.cpp.o\n'}
+[5.762447] (crazyflie_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/position__type_support.cpp.o\n'}
+[5.762546] (crazyflie_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/connection_statistics__type_support.cpp.o\n'}
+[5.762641] (crazyflie_interfaces) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/status__type_support.cpp.o\n'}
+[5.762729] (crazyflie_interfaces) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/log_data_generic__type_support.cpp.o\n'}
+[5.762824] (crazyflie_interfaces) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.cpp.o\n'}
+[5.769682] (crazyflie_interfaces) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/go_to__type_support.cpp.o\n'}
+[5.821487] (crazyflie_interfaces) StdoutLine: {'line': b'[ 44%] Built target crazyflie_interfaces__rosidl_typesupport_c\n'}
+[5.821714] (-) TimerEvent: {}
+[5.833892] (crazyflie_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/land__type_support.cpp.o\n'}
+[5.921841] (-) TimerEvent: {}
+[6.022486] (-) TimerEvent: {}
+[6.125541] (-) TimerEvent: {}
+[6.214249] (crazyflie_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.cpp.o\n'}
+[6.226467] (-) TimerEvent: {}
+[6.237762] (crazyflie_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/set_group_mask__type_support.cpp.o\n'}
+[6.240014] (crazyflie_interfaces) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/start_trajectory__type_support.cpp.o\n'}
+[6.263319] (crazyflie_interfaces) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/stop__type_support.cpp.o\n'}
+[6.285669] (crazyflie_interfaces) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/takeoff__type_support.cpp.o\n'}
+[6.285868] (crazyflie_interfaces) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/connection_statistics__type_support.cpp.o\n'}
+[6.301456] (crazyflie_interfaces) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/connection_statistics_array__type_support.cpp.o\n'}
+[6.319359] (crazyflie_interfaces) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/full_state__type_support.cpp.o\n'}
+[6.327595] (-) TimerEvent: {}
+[6.330577] (crazyflie_interfaces) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/update_params__type_support.cpp.o\n'}
+[6.360836] (crazyflie_interfaces) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.cpp.o\n'}
+[6.417747] (crazyflie_interfaces) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/hover__type_support.cpp.o\n'}
+[6.426506] (crazyflie_interfaces) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/log_data_generic__type_support.cpp.o\n'}
+[6.427712] (-) TimerEvent: {}
+[6.441099] (crazyflie_interfaces) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/log_block__type_support.cpp.o\n'}
+[6.527816] (-) TimerEvent: {}
+[6.631739] (-) TimerEvent: {}
+[6.732527] (-) TimerEvent: {}
+[6.749464] (crazyflie_interfaces) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/remove_logging__type_support.cpp.o\n'}
+[6.776627] (crazyflie_interfaces) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/position__type_support.cpp.o\n'}
+[6.798436] (crazyflie_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/status__type_support.cpp.o\n'}
+[6.802474] (crazyflie_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/trajectory_polynomial_piece__type_support.cpp.o\n'}
+[6.832624] (-) TimerEvent: {}
+[6.844661] (crazyflie_interfaces) StdoutLine: {'line': b'[ 52%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/connection_statistics__type_support.c.o\n'}
+[6.845042] (crazyflie_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/velocity_world__type_support.cpp.o\n'}
+[6.853714] (crazyflie_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/add_logging__type_support.cpp.o\n'}
+[6.882821] (crazyflie_interfaces) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/srv/detail/arm__type_support.cpp.o\n'}
+[6.914846] (crazyflie_interfaces) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.c.o\n'}
+[6.930502] (crazyflie_interfaces) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/full_state__type_support.c.o\n'}
+[6.932780] (-) TimerEvent: {}
+[6.938217] (crazyflie_interfaces) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/land__type_support.cpp.o\n'}
+[6.943622] (crazyflie_interfaces) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/go_to__type_support.cpp.o\n'}
+[6.959843] (crazyflie_interfaces) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/notify_setpoints_stop__type_support.cpp.o\n'}
+[7.001955] (crazyflie_interfaces) StdoutLine: {'line': b'[ 56%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/log_data_generic__type_support.c.o\n'}
+[7.015500] (crazyflie_interfaces) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/set_group_mask__type_support.cpp.o\n'}
+[7.026871] (crazyflie_interfaces) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/hover__type_support.c.o\n'}
+[7.032885] (-) TimerEvent: {}
+[7.079742] (crazyflie_interfaces) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/log_block__type_support.c.o\n'}
+[7.086269] (crazyflie_interfaces) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/start_trajectory__type_support.cpp.o\n'}
+[7.133011] (-) TimerEvent: {}
+[7.156887] (crazyflie_interfaces) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/position__type_support.c.o\n'}
+[7.233257] (-) TimerEvent: {}
+[7.239616] (crazyflie_interfaces) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/status__type_support.c.o\n'}
+[7.252527] (crazyflie_interfaces) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.c.o\n'}
+[7.274720] (crazyflie_interfaces) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/velocity_world__type_support.c.o\n'}
+[7.295537] (crazyflie_interfaces) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/go_to__type_support.c.o\n'}
+[7.297829] (crazyflie_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/stop__type_support.cpp.o\n'}
+[7.319413] (crazyflie_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/takeoff__type_support.cpp.o\n'}
+[7.332567] (crazyflie_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/connection_statistics__type_support.cpp.o\n'}
+[7.333963] (-) TimerEvent: {}
+[7.335176] (crazyflie_interfaces) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/connection_statistics_array__type_support.cpp.o\n'}
+[7.342286] (crazyflie_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/update_params__type_support.cpp.o\n'}
+[7.349973] (crazyflie_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/upload_trajectory__type_support.cpp.o\n'}
+[7.373190] (crazyflie_interfaces) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/land__type_support.c.o\n'}
+[7.436470] (-) TimerEvent: {}
+[7.452992] (crazyflie_interfaces) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/connection_statistics__type_support_c.cpp.o\n'}
+[7.457240] (crazyflie_interfaces) StdoutLine: {'line': b'[ 64%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.c.o\n'}
+[7.466284] (crazyflie_interfaces) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support_c.cpp.o\n'}
+[7.504548] (crazyflie_interfaces) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/full_state__type_support.cpp.o\n'}
+[7.536634] (-) TimerEvent: {}
+[7.542873] (crazyflie_interfaces) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/log_data_generic__type_support.cpp.o\n'}
+[7.545107] (crazyflie_interfaces) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/remove_logging__type_support.cpp.o\n'}
+[7.560755] (crazyflie_interfaces) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/set_group_mask__type_support.c.o\n'}
+[7.621714] (crazyflie_interfaces) StdoutLine: {'line': b'[ 66%] Linking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.626882] (crazyflie_interfaces) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/hover__type_support.cpp.o\n'}
+[7.636791] (-) TimerEvent: {}
+[7.656162] (crazyflie_interfaces) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/start_trajectory__type_support.c.o\n'}
+[7.663787] (crazyflie_interfaces) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/full_state__type_support_c.cpp.o\n'}
+[7.723084] (crazyflie_interfaces) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/stop__type_support.c.o\n'}
+[7.736913] (-) TimerEvent: {}
+[7.762559] (crazyflie_interfaces) StdoutLine: {'line': b'[ 67%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/takeoff__type_support.c.o\n'}
+[7.833902] (crazyflie_interfaces) StdoutLine: {'line': b'[ 67%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/update_params__type_support.c.o\n'}
+[7.837049] (-) TimerEvent: {}
+[7.869862] (crazyflie_interfaces) StdoutLine: {'line': b'[ 67%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.870442] (crazyflie_interfaces) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/log_block__type_support.cpp.o\n'}
+[7.884618] (crazyflie_interfaces) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/add_logging__type_support.cpp.o\n'}
+[7.888153] (crazyflie_interfaces) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/srv/arm__type_support.cpp.o\n'}
+[7.908050] (crazyflie_interfaces) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/log_data_generic__type_support_c.cpp.o\n'}
+[7.923818] (crazyflie_interfaces) StdoutLine: {'line': b'[ 70%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.c.o\n'}
+[7.939519] (-) TimerEvent: {}
+[7.984351] (crazyflie_interfaces) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/hover__type_support_c.cpp.o\n'}
+[7.997060] (crazyflie_interfaces) StdoutLine: {'line': b'[ 70%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/remove_logging__type_support.c.o\n'}
+[8.039750] (-) TimerEvent: {}
+[8.044565] (crazyflie_interfaces) StdoutLine: {'line': b'[ 70%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/add_logging__type_support.c.o\n'}
+[8.063142] (crazyflie_interfaces) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/log_block__type_support_c.cpp.o\n'}
+[8.063387] (crazyflie_interfaces) StdoutLine: {'line': b'[ 72%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/srv/detail/arm__type_support.c.o\n'}
+[8.103693] (crazyflie_interfaces) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/position__type_support.cpp.o\n'}
+[8.127605] (crazyflie_interfaces) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/status__type_support.cpp.o\n'}
+[8.137531] (crazyflie_interfaces) StdoutLine: {'line': b'[ 73%] Linking C shared library libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.139836] (-) TimerEvent: {}
+[8.156355] (crazyflie_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/trajectory_polynomial_piece__type_support.cpp.o\n'}
+[8.192411] (crazyflie_interfaces) StdoutLine: {'line': b'[ 74%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.227548] (crazyflie_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/velocity_world__type_support.cpp.o\n'}
+[8.239961] (-) TimerEvent: {}
+[8.254023] (crazyflie_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/position__type_support_c.cpp.o\n'}
+[8.294987] (crazyflie_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/status__type_support_c.cpp.o\n'}
+[8.326853] (crazyflie_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/go_to__type_support.cpp.o\n'}
+[8.345491] (-) TimerEvent: {}
+[8.394265] (crazyflie_interfaces) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support_c.cpp.o\n'}
+[8.443206] (crazyflie_interfaces) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/velocity_world__type_support_c.cpp.o\n'}
+[8.445677] (-) TimerEvent: {}
+[8.458601] (crazyflie_interfaces) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/land__type_support.cpp.o\n'}
+[8.466317] (crazyflie_interfaces) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/notify_setpoints_stop__type_support.cpp.o\n'}
+[8.545889] (-) TimerEvent: {}
+[8.583519] (crazyflie_interfaces) StdoutLine: {'line': b'[ 77%] Linking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.586150] (crazyflie_interfaces) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/set_group_mask__type_support.cpp.o\n'}
+[8.646036] (-) TimerEvent: {}
+[8.721922] (crazyflie_interfaces) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/start_trajectory__type_support.cpp.o\n'}
+[8.746182] (-) TimerEvent: {}
+[8.749476] (crazyflie_interfaces) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/go_to__type_support_c.cpp.o\n'}
+[8.781563] (crazyflie_interfaces) StdoutLine: {'line': b'[ 79%] Built target crazyflie_interfaces__rosidl_typesupport_cpp\n'}
+[8.796250] (crazyflie_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/stop__type_support.cpp.o\n'}
+[8.812817] (crazyflie_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/land__type_support_c.cpp.o\n'}
+[8.844684] (crazyflie_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/takeoff__type_support.cpp.o\n'}
+[8.853011] (-) TimerEvent: {}
+[8.891494] (crazyflie_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support_c.cpp.o\n'}
+[8.898446] (crazyflie_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/update_params__type_support.cpp.o\n'}
+[8.953513] (-) TimerEvent: {}
+[8.986276] (crazyflie_interfaces) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/set_group_mask__type_support_c.cpp.o\n'}
+[8.997649] (crazyflie_interfaces) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/start_trajectory__type_support_c.cpp.o\n'}
+[9.053690] (-) TimerEvent: {}
+[9.151716] (crazyflie_interfaces) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/stop__type_support_c.cpp.o\n'}
+[9.153810] (-) TimerEvent: {}
+[9.243788] (crazyflie_interfaces) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/takeoff__type_support_c.cpp.o\n'}
+[9.254391] (-) TimerEvent: {}
+[9.255998] (crazyflie_interfaces) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/update_params__type_support_c.cpp.o\n'}
+[9.272633] (crazyflie_interfaces) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/upload_trajectory__type_support_c.cpp.o\n'}
+[9.354476] (-) TimerEvent: {}
+[9.398917] (crazyflie_interfaces) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/upload_trajectory__type_support.cpp.o\n'}
+[9.437672] (crazyflie_interfaces) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/remove_logging__type_support_c.cpp.o\n'}
+[9.454609] (-) TimerEvent: {}
+[9.490604] (crazyflie_interfaces) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/remove_logging__type_support.cpp.o\n'}
+[9.496088] (crazyflie_interfaces) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/add_logging__type_support_c.cpp.o\n'}
+[9.554733] (-) TimerEvent: {}
+[9.574191] (crazyflie_interfaces) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/srv/detail/arm__type_support_c.cpp.o\n'}
+[9.628285] (crazyflie_interfaces) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/add_logging__type_support.cpp.o\n'}
+[9.654904] (-) TimerEvent: {}
+[9.693890] (crazyflie_interfaces) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/srv/detail/dds_fastrtps/arm__type_support.cpp.o\n'}
+[9.754996] (-) TimerEvent: {}
+[9.855208] (-) TimerEvent: {}
+[9.955483] (-) TimerEvent: {}
+[10.055715] (-) TimerEvent: {}
+[10.112723] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Linking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.155848] (-) TimerEvent: {}
+[10.192176] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.255966] (-) TimerEvent: {}
+[10.329638] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Linking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.356079] (-) TimerEvent: {}
+[10.413766] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.431643] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Built target crazyflie_interfaces\n'}
+[10.456213] (-) TimerEvent: {}
+[10.457590] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Generating Python code for ROS interfaces\n'}
+[10.556480] (-) TimerEvent: {}
+[10.656739] (-) TimerEvent: {}
+[10.756920] (-) TimerEvent: {}
+[10.857180] (-) TimerEvent: {}
+[10.957393] (-) TimerEvent: {}
+[11.057697] (-) TimerEvent: {}
+[11.157962] (-) TimerEvent: {}
+[11.258123] (-) TimerEvent: {}
+[11.358377] (-) TimerEvent: {}
+[11.458548] (-) TimerEvent: {}
+[11.558803] (-) TimerEvent: {}
+[11.659113] (-) TimerEvent: {}
+[11.759274] (-) TimerEvent: {}
+[11.859547] (-) TimerEvent: {}
+[11.959815] (-) TimerEvent: {}
+[12.060098] (-) TimerEvent: {}
+[12.160358] (-) TimerEvent: {}
+[12.224786] (crazyflie_interfaces) StdoutLine: {'line': b'[ 87%] Built target crazyflie_interfaces__py\n'}
+[12.247113] (crazyflie_interfaces) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_s.c.o\n'}
+[12.247471] (crazyflie_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_go_to_s.c.o\n'}
+[12.247684] (crazyflie_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_position_s.c.o\n'}
+[12.247778] (crazyflie_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_velocity_world_s.c.o\n'}
+[12.247914] (crazyflie_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_status_s.c.o\n'}
+[12.248747] (crazyflie_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c.o\n'}
+[12.249072] (crazyflie_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_start_trajectory_s.c.o\n'}
+[12.250996] (crazyflie_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_log_data_generic_s.c.o\n'}
+[12.251252] (crazyflie_interfaces) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_log_block_s.c.o\n'}
+[12.251335] (crazyflie_interfaces) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_stop_s.c.o\n'}
+[12.251742] (crazyflie_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_land_s.c.o\n'}
+[12.251867] (crazyflie_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c.o\n'}
+[12.253030] (crazyflie_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_full_state_s.c.o\n'}
+[12.255344] (crazyflie_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_connection_statistics_array_s.c.o\n'}
+[12.256865] (crazyflie_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_hover_s.c.o\n'}
+[12.259925] (crazyflie_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_set_group_mask_s.c.o\n'}
+[12.262961] (-) TimerEvent: {}
+[12.364547] (-) TimerEvent: {}
+[12.442334] (crazyflie_interfaces) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_update_params_s.c.o\n'}
+[12.446170] (crazyflie_interfaces) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_takeoff_s.c.o\n'}
+[12.464535] (crazyflie_interfaces) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_upload_trajectory_s.c.o\n'}
+[12.464805] (-) TimerEvent: {}
+[12.464833] (crazyflie_interfaces) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_remove_logging_s.c.o\n'}
+[12.464968] (crazyflie_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_add_logging_s.c.o\n'}
+[12.470183] (crazyflie_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/srv/_arm_s.c.o\n'}
+[12.564971] (-) TimerEvent: {}
+[12.631764] (crazyflie_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library libcrazyflie_interfaces__rosidl_generator_py.so\n'}
+[12.665063] (-) TimerEvent: {}
+[12.678656] (crazyflie_interfaces) StdoutLine: {'line': b'[ 97%] Built target crazyflie_interfaces__rosidl_generator_py\n'}
+[12.698660] (crazyflie_interfaces) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/crazyflie_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[12.698997] (crazyflie_interfaces) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[12.699098] (crazyflie_interfaces) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[12.765170] (-) TimerEvent: {}
+[12.865386] (-) TimerEvent: {}
+[12.871272] (crazyflie_interfaces) StdoutLine: {'line': b'[ 98%] Linking C shared module rosidl_generator_py/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.873569] (crazyflie_interfaces) StdoutLine: {'line': b'[ 99%] Linking C shared module rosidl_generator_py/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.877183] (crazyflie_interfaces) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.904680] (crazyflie_interfaces) StdoutLine: {'line': b'[100%] Built target crazyflie_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[12.907629] (crazyflie_interfaces) StdoutLine: {'line': b'[100%] Built target crazyflie_interfaces_s__rosidl_typesupport_c\n'}
+[12.912211] (crazyflie_interfaces) StdoutLine: {'line': b'[100%] Built target crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.922702] (crazyflie_interfaces) CommandEnded: {'returncode': 0}
+[12.923188] (crazyflie_interfaces) JobProgress: {'identifier': 'crazyflie_interfaces', 'progress': 'install'}
+[12.930553] (crazyflie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros2_ws/build/crazyflie_interfaces'], 'cwd': '/workspace/ros2_ws/build/crazyflie_interfaces', 'env': OrderedDict({'VSCODE_CWD': '/workspace', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'utec-G5-MF', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-75ae06c0-f46a-4a3d-a16e-92a44f3c59e7.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'COMPOSER_NO_INTERACTION': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/cursor-remote-ssh-3b2ab4f1-13a6-4e53-9d50-4fc98e42e232.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros2_ws/build/crazyflie_interfaces', 'LC_ALL': 'C.UTF-8', 'USB_DEVICE_PERMISSIONS': '0666', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.938587] (crazyflie_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.939146] (crazyflie_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.939416] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/rosidl_interfaces/crazyflie_interfaces\n'}
+[12.947137] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatistics.json\n'}
+[12.955113] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatisticsArray.json\n'}
+[12.963390] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.json\n'}
+[12.965564] (-) TimerEvent: {}
+[12.970074] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.json\n'}
+[12.978502] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.json\n'}
+[12.986736] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.json\n'}
+[12.994145] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.json\n'}
+[13.001774] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Status.json\n'}
+[13.010991] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.json\n'}
+[13.018982] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.json\n'}
+[13.028780] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.json\n'}
+[13.036427] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.json\n'}
+[13.047248] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.json\n'}
+[13.057207] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.json\n'}
+[13.065677] (-) TimerEvent: {}
+[13.068224] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.json\n'}
+[13.077629] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.json\n'}
+[13.084814] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.json\n'}
+[13.093356] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.json\n'}
+[13.100315] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.json\n'}
+[13.108824] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.json\n'}
+[13.117612] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.json\n'}
+[13.126841] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Arm.json\n'}
+[13.137907] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics.h\n'}
+[13.145115] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics_array.h\n'}
+[13.155300] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__functions.h\n'}
+[13.163501] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__struct.h\n'}
+[13.165772] (-) TimerEvent: {}
+[13.172797] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__type_support.h\n'}
+[13.180100] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__functions.h\n'}
+[13.190502] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__struct.h\n'}
+[13.198171] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.h\n'}
+[13.205395] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__functions.h\n'}
+[13.213792] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__struct.h\n'}
+[13.223035] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__type_support.h\n'}
+[13.230140] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__functions.h\n'}
+[13.240358] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__struct.h\n'}
+[13.248484] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__type_support.h\n'}
+[13.256101] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__functions.h\n'}
+[13.263535] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__struct.h\n'}
+[13.265967] (-) TimerEvent: {}
+[13.270827] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__type_support.h\n'}
+[13.277852] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__functions.h\n'}
+[13.285138] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__struct.h\n'}
+[13.292397] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__type_support.h\n'}
+[13.300897] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__functions.h\n'}
+[13.311527] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__struct.h\n'}
+[13.319535] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__type_support.h\n'}
+[13.327111] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__functions.h\n'}
+[13.335017] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__struct.h\n'}
+[13.341954] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__type_support.h\n'}
+[13.349448] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.h\n'}
+[13.357508] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.h\n'}
+[13.365074] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.h\n'}
+[13.366027] (-) TimerEvent: {}
+[13.371747] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__functions.h\n'}
+[13.380357] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__struct.h\n'}
+[13.388619] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__type_support.h\n'}
+[13.396679] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/full_state.h\n'}
+[13.405934] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/hover.h\n'}
+[13.413355] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_block.h\n'}
+[13.420669] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_data_generic.h\n'}
+[13.428293] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/position.h\n'}
+[13.436053] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.442816] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/status.h\n'}
+[13.450681] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/trajectory_polynomial_piece.h\n'}
+[13.459484] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/velocity_world.h\n'}
+[13.466135] (-) TimerEvent: {}
+[13.466488] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/add_logging.h\n'}
+[13.474069] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/arm.h\n'}
+[13.482176] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__functions.h\n'}
+[13.489251] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__struct.h\n'}
+[13.498010] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__type_support.h\n'}
+[13.504979] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__functions.h\n'}
+[13.514946] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__struct.h\n'}
+[13.524607] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__type_support.h\n'}
+[13.533750] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__functions.h\n'}
+[13.541393] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__struct.h\n'}
+[13.549331] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__type_support.h\n'}
+[13.556675] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__functions.h\n'}
+[13.564233] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__struct.h\n'}
+[13.566240] (-) TimerEvent: {}
+[13.572554] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__type_support.h\n'}
+[13.581214] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.h\n'}
+[13.590511] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.h\n'}
+[13.599683] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.h\n'}
+[13.608904] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__functions.h\n'}
+[13.616016] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__struct.h\n'}
+[13.623096] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__type_support.h\n'}
+[13.632893] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__functions.h\n'}
+[13.640029] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__struct.h\n'}
+[13.647226] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__type_support.h\n'}
+[13.654635] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__functions.h\n'}
+[13.661426] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__struct.h\n'}
+[13.666367] (-) TimerEvent: {}
+[13.668755] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__type_support.h\n'}
+[13.676006] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__functions.h\n'}
+[13.682947] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__struct.h\n'}
+[13.689868] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__type_support.h\n'}
+[13.697946] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__functions.h\n'}
+[13.705993] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__struct.h\n'}
+[13.714682] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__type_support.h\n'}
+[13.722083] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__functions.h\n'}
+[13.729825] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__struct.h\n'}
+[13.737673] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__type_support.h\n'}
+[13.747094] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__functions.h\n'}
+[13.755814] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__struct.h\n'}
+[13.763644] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.h\n'}
+[13.766563] (-) TimerEvent: {}
+[13.771182] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/go_to.h\n'}
+[13.778121] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/land.h\n'}
+[13.785793] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/notify_setpoints_stop.h\n'}
+[13.794891] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/remove_logging.h\n'}
+[13.801108] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/set_group_mask.h\n'}
+[13.808796] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/start_trajectory.h\n'}
+[13.817562] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/stop.h\n'}
+[13.827319] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/takeoff.h\n'}
+[13.834541] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/update_params.h\n'}
+[13.845124] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/upload_trajectory.h\n'}
+[13.854257] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.sh\n'}
+[13.861549] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.dsv\n'}
+[13.866656] (-) TimerEvent: {}
+[13.871278] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_fastrtps_c.h\n'}
+[13.878490] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_fastrtps_c.h\n'}
+[13.888821] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_fastrtps_c.h\n'}
+[13.896384] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_fastrtps_c.h\n'}
+[13.907356] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_fastrtps_c.h\n'}
+[13.915086] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_fastrtps_c.h\n'}
+[13.922980] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[13.930190] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.939087] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_fastrtps_c.h\n'}
+[13.946210] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_fastrtps_c.h\n'}
+[13.956708] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.964692] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_fastrtps_c.h\n'}
+[13.966716] (-) TimerEvent: {}
+[13.971899] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_fastrtps_c.h\n'}
+[13.978975] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_fastrtps_c.h\n'}
+[13.986110] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_fastrtps_c.h\n'}
+[13.993049] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[14.000816] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_fastrtps_c.h\n'}
+[14.008456] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_fastrtps_c.h\n'}
+[14.018650] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[14.026425] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_c.h\n'}
+[14.035714] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_fastrtps_c.h\n'}
+[14.042720] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_fastrtps_c.h\n'}
+[14.053000] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[14.061473] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics.hpp\n'}
+[14.066838] (-) TimerEvent: {}
+[14.068631] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics_array.hpp\n'}
+[14.076176] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__builder.hpp\n'}
+[14.084343] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__struct.hpp\n'}
+[14.092804] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__traits.hpp\n'}
+[14.099549] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__type_support.hpp\n'}
+[14.106839] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__builder.hpp\n'}
+[14.115754] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__struct.hpp\n'}
+[14.123174] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__traits.hpp\n'}
+[14.131523] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.hpp\n'}
+[14.138931] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__builder.hpp\n'}
+[14.147377] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__struct.hpp\n'}
+[14.154589] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__traits.hpp\n'}
+[14.163805] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__type_support.hpp\n'}
+[14.166913] (-) TimerEvent: {}
+[14.171262] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__builder.hpp\n'}
+[14.179019] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__struct.hpp\n'}
+[14.187558] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__traits.hpp\n'}
+[14.195900] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__type_support.hpp\n'}
+[14.203071] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__builder.hpp\n'}
+[14.213068] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__struct.hpp\n'}
+[14.221072] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__traits.hpp\n'}
+[14.230784] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__type_support.hpp\n'}
+[14.237873] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__builder.hpp\n'}
+[14.246331] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__struct.hpp\n'}
+[14.254909] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__traits.hpp\n'}
+[14.263681] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__type_support.hpp\n'}
+[14.267036] (-) TimerEvent: {}
+[14.271691] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__builder.hpp\n'}
+[14.279663] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__struct.hpp\n'}
+[14.288190] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__traits.hpp\n'}
+[14.295782] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__type_support.hpp\n'}
+[14.302738] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__builder.hpp\n'}
+[14.310514] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__struct.hpp\n'}
+[14.320461] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__traits.hpp\n'}
+[14.327215] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__type_support.hpp\n'}
+[14.338143] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__builder.hpp\n'}
+[14.347135] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.hpp\n'}
+[14.358133] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__traits.hpp\n'}
+[14.366217] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.hpp\n'}
+[14.367090] (-) TimerEvent: {}
+[14.374356] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__builder.hpp\n'}
+[14.381619] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__struct.hpp\n'}
+[14.390606] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__traits.hpp\n'}
+[14.398182] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__type_support.hpp\n'}
+[14.406775] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/full_state.hpp\n'}
+[14.414328] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/hover.hpp\n'}
+[14.421259] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_block.hpp\n'}
+[14.429269] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_data_generic.hpp\n'}
+[14.437253] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/position.hpp\n'}
+[14.445516] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.453039] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/status.hpp\n'}
+[14.463840] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/trajectory_polynomial_piece.hpp\n'}
+[14.467164] (-) TimerEvent: {}
+[14.471542] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/velocity_world.hpp\n'}
+[14.479446] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/add_logging.hpp\n'}
+[14.488165] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/arm.hpp\n'}
+[14.495932] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__builder.hpp\n'}
+[14.503814] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__struct.hpp\n'}
+[14.511517] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__traits.hpp\n'}
+[14.520095] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__type_support.hpp\n'}
+[14.526877] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__builder.hpp\n'}
+[14.534963] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__struct.hpp\n'}
+[14.543023] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__traits.hpp\n'}
+[14.551020] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__type_support.hpp\n'}
+[14.560376] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__builder.hpp\n'}
+[14.567302] (-) TimerEvent: {}
+[14.568252] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__struct.hpp\n'}
+[14.576063] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__traits.hpp\n'}
+[14.584105] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__type_support.hpp\n'}
+[14.591252] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__builder.hpp\n'}
+[14.599740] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__struct.hpp\n'}
+[14.607819] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__traits.hpp\n'}
+[14.614969] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__type_support.hpp\n'}
+[14.622034] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__builder.hpp\n'}
+[14.629239] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.hpp\n'}
+[14.636578] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__traits.hpp\n'}
+[14.646832] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.hpp\n'}
+[14.654586] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__builder.hpp\n'}
+[14.665284] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__struct.hpp\n'}
+[14.667552] (-) TimerEvent: {}
+[14.673651] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__traits.hpp\n'}
+[14.680502] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__type_support.hpp\n'}
+[14.687950] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__builder.hpp\n'}
+[14.695947] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__struct.hpp\n'}
+[14.703941] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__traits.hpp\n'}
+[14.714745] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__type_support.hpp\n'}
+[14.722662] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__builder.hpp\n'}
+[14.730925] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__struct.hpp\n'}
+[14.738216] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__traits.hpp\n'}
+[14.747602] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__type_support.hpp\n'}
+[14.754844] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__builder.hpp\n'}
+[14.762009] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__struct.hpp\n'}
+[14.767672] (-) TimerEvent: {}
+[14.768575] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__traits.hpp\n'}
+[14.777523] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__type_support.hpp\n'}
+[14.787292] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__builder.hpp\n'}
+[14.795799] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__struct.hpp\n'}
+[14.803382] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__traits.hpp\n'}
+[14.810149] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__type_support.hpp\n'}
+[14.817830] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__builder.hpp\n'}
+[14.825678] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__struct.hpp\n'}
+[14.834093] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__traits.hpp\n'}
+[14.841217] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__type_support.hpp\n'}
+[14.848926] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__builder.hpp\n'}
+[14.856742] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__struct.hpp\n'}
+[14.865212] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__traits.hpp\n'}
+[14.867761] (-) TimerEvent: {}
+[14.873000] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.hpp\n'}
+[14.879676] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/go_to.hpp\n'}
+[14.887950] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/land.hpp\n'}
+[14.896587] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/notify_setpoints_stop.hpp\n'}
+[14.904520] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/remove_logging.hpp\n'}
+[14.913855] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/set_group_mask.hpp\n'}
+[14.923227] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/start_trajectory.hpp\n'}
+[14.931075] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/stop.hpp\n'}
+[14.938725] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/takeoff.hpp\n'}
+[14.947195] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/update_params.hpp\n'}
+[14.954521] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/upload_trajectory.hpp\n'}
+[14.964813] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.967880] (-) TimerEvent: {}
+[14.973444] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.980793] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.990054] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.997000] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.004764] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.012179] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.019145] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.027151] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.034831] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.042171] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.050027] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.058732] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.066148] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.067991] (-) TimerEvent: {}
+[15.074722] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.081896] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.088488] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.096608] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.105052] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.113884] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.121491] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.129092] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.137191] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.145179] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_introspection_c.h\n'}
+[15.152520] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_introspection_c.h\n'}
+[15.162166] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_introspection_c.h\n'}
+[15.168136] (-) TimerEvent: {}
+[15.169776] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_introspection_c.h\n'}
+[15.177231] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_introspection_c.h\n'}
+[15.185490] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_introspection_c.h\n'}
+[15.192198] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[15.199517] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[15.209338] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_introspection_c.h\n'}
+[15.217385] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_introspection_c.h\n'}
+[15.226089] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.232743] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_introspection_c.h\n'}
+[15.240038] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_introspection_c.h\n'}
+[15.249242] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_introspection_c.h\n'}
+[15.258171] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_introspection_c.h\n'}
+[15.265734] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_introspection_c.h\n'}
+[15.268361] (-) TimerEvent: {}
+[15.272955] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_introspection_c.h\n'}
+[15.282176] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_introspection_c.h\n'}
+[15.289521] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[15.299692] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_introspection_c.h\n'}
+[15.307300] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_introspection_c.h\n'}
+[15.315504] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_introspection_c.h\n'}
+[15.322140] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[15.330611] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.340830] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.349518] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.360643] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.368156] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.368416] (-) TimerEvent: {}
+[15.375048] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.381682] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.391379] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.399533] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.406444] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.416009] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.423135] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.433821] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.441512] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.451074] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.458440] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.465518] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.468493] (-) TimerEvent: {}
+[15.473306] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.483386] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.492440] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.500151] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.508432] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.516153] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.sh\n'}
+[15.524197] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.dsv\n'}
+[15.533173] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/PKG-INFO\n'}
+[15.542232] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/SOURCES.txt\n'}
+[15.549179] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/dependency_links.txt\n'}
+[15.556582] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/top_level.txt\n'}
+[15.565915] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/__init__.py\n'}
+[15.568562] (-) TimerEvent: {}
+[15.573350] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[15.580444] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.587243] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.595440] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.so\n'}
+[15.603716] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.610867] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[15.619659] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/__init__.py\n'}
+[15.626344] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics.py\n'}
+[15.635959] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_array.py\n'}
+[15.643441] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_array_s.c\n'}
+[15.652010] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_s.c\n'}
+[15.660690] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_full_state.py\n'}
+[15.667969] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_full_state_s.c\n'}
+[15.668660] (-) TimerEvent: {}
+[15.678540] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_hover.py\n'}
+[15.686283] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_hover_s.c\n'}
+[15.695548] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_block.py\n'}
+[15.703597] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_block_s.c\n'}
+[15.713014] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_data_generic.py\n'}
+[15.721075] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_data_generic_s.c\n'}
+[15.729704] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_position.py\n'}
+[15.737036] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_position_s.c\n'}
+[15.744486] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_status.py\n'}
+[15.751623] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_status_s.c\n'}
+[15.761417] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece.py\n'}
+[15.768753] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c\n'}
+[15.768958] (-) TimerEvent: {}
+[15.777102] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_velocity_world.py\n'}
+[15.784376] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_velocity_world_s.c\n'}
+[15.791650] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/__init__.py\n'}
+[15.800034] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_add_logging.py\n'}
+[15.807065] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_add_logging_s.c\n'}
+[15.814823] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_arm.py\n'}
+[15.822000] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_arm_s.c\n'}
+[15.831132] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_go_to.py\n'}
+[15.838235] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_go_to_s.c\n'}
+[15.847319] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_land.py\n'}
+[15.854633] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_land_s.c\n'}
+[15.861733] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_notify_setpoints_stop.py\n'}
+[15.869065] (-) TimerEvent: {}
+[15.870377] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c\n'}
+[15.877979] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_remove_logging.py\n'}
+[15.884354] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_remove_logging_s.c\n'}
+[15.892529] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_set_group_mask.py\n'}
+[15.900041] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_set_group_mask_s.c\n'}
+[15.906793] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_start_trajectory.py\n'}
+[15.915312] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_start_trajectory_s.c\n'}
+[15.922409] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_stop.py\n'}
+[15.930275] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_stop_s.c\n'}
+[15.938477] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_takeoff.py\n'}
+[15.945302] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_takeoff_s.c\n'}
+[15.954050] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_update_params.py\n'}
+[15.963101] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_update_params_s.c\n'}
+[15.969189] (-) TimerEvent: {}
+[15.969989] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_upload_trajectory.py\n'}
+[15.976843] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_upload_trajectory_s.c\n'}
+[15.985259] (crazyflie_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.985462] (crazyflie_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[15.985728] (crazyflie_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.so\n'}
+[15.985874] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatistics.idl\n'}
+[15.994549] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatisticsArray.idl\n'}
+[16.003358] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.idl\n'}
+[16.011722] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.idl\n'}
+[16.019807] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.idl\n'}
+[16.029005] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.idl\n'}
+[16.036289] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.idl\n'}
+[16.044553] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Status.idl\n'}
+[16.051787] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.idl\n'}
+[16.062217] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.idl\n'}
+[16.069303] (-) TimerEvent: {}
+[16.069662] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.idl\n'}
+[16.077385] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.idl\n'}
+[16.084519] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.idl\n'}
+[16.092023] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.idl\n'}
+[16.099023] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.idl\n'}
+[16.107596] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.idl\n'}
+[16.115844] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.idl\n'}
+[16.123759] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.idl\n'}
+[16.131812] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.idl\n'}
+[16.141269] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.idl\n'}
+[16.149033] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.idl\n'}
+[16.156710] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Arm.idl\n'}
+[16.165345] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatistics.msg\n'}
+[16.169416] (-) TimerEvent: {}
+[16.173100] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatisticsArray.msg\n'}
+[16.181499] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.msg\n'}
+[16.189293] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.msg\n'}
+[16.196951] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.msg\n'}
+[16.204601] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.msg\n'}
+[16.213399] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.msg\n'}
+[16.222050] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Status.msg\n'}
+[16.231578] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.msg\n'}
+[16.239312] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.msg\n'}
+[16.247205] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.srv\n'}
+[16.257459] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.srv\n'}
+[16.266741] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.srv\n'}
+[16.269433] (-) TimerEvent: {}
+[16.274615] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.srv\n'}
+[16.281523] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.srv\n'}
+[16.288252] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.srv\n'}
+[16.296629] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.srv\n'}
+[16.304588] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.srv\n'}
+[16.311717] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.srv\n'}
+[16.320102] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.srv\n'}
+[16.327772] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.srv\n'}
+[16.335031] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Arm.srv\n'}
+[16.342194] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/package_run_dependencies/crazyflie_interfaces\n'}
+[16.349036] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/parent_prefix_path/crazyflie_interfaces\n'}
+[16.357546] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.sh\n'}
+[16.365535] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.369590] (-) TimerEvent: {}
+[16.375708] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.sh\n'}
+[16.383092] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.dsv\n'}
+[16.391170] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.bash\n'}
+[16.398149] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.sh\n'}
+[16.406883] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.zsh\n'}
+[16.414176] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.dsv\n'}
+[16.421059] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv\n'}
+[16.429094] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/packages/crazyflie_interfaces\n'}
+[16.436754] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.444824] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.455198] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.462244] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.469686] (-) TimerEvent: {}
+[16.470823] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.478749] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.486543] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.494899] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig.cmake\n'}
+[16.503818] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig-version.cmake\n'}
+[16.511688] (crazyflie_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.xml\n'}
+[16.520695] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_c.so\n'}
+[16.521217] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_c.so" to ""\n'}
+[16.521326] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.521729] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.521884] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.523339] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.523833] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[16.524339] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.524779] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so\n'}
+[16.525449] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[16.525777] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[16.526815] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.526989] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.527503] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[16.569878] (-) TimerEvent: {}
+[16.594787] (crazyflie_interfaces) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces'...\n"}
+[16.595003] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/__init__.py'...\n"}
+[16.595106] (crazyflie_interfaces) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg'...\n"}
+[16.595201] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/__init__.py'...\n"}
+[16.595293] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics.py'...\n"}
+[16.595371] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_array.py'...\n"}
+[16.595467] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_full_state.py'...\n"}
+[16.595585] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_hover.py'...\n"}
+[16.595628] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_block.py'...\n"}
+[16.595666] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_data_generic.py'...\n"}
+[16.595703] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_position.py'...\n"}
+[16.595737] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_status.py'...\n"}
+[16.595771] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece.py'...\n"}
+[16.595812] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_velocity_world.py'...\n"}
+[16.595850] (crazyflie_interfaces) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv'...\n"}
+[16.595884] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/__init__.py'...\n"}
+[16.595917] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_add_logging.py'...\n"}
+[16.595950] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_arm.py'...\n"}
+[16.595985] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_go_to.py'...\n"}
+[16.596016] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_land.py'...\n"}
+[16.596049] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_notify_setpoints_stop.py'...\n"}
+[16.596081] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_remove_logging.py'...\n"}
+[16.596115] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_set_group_mask.py'...\n"}
+[16.596153] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_start_trajectory.py'...\n"}
+[16.596185] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_stop.py'...\n"}
+[16.596219] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_takeoff.py'...\n"}
+[16.596251] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_update_params.py'...\n"}
+[16.596285] (crazyflie_interfaces) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_upload_trajectory.py'...\n"}
+[16.599622] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_py.so\n'}
+[16.600256] (crazyflie_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_py.so" to ""\n'}
+[16.600462] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport.cmake\n'}
+[16.600659] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.600747] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.600836] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.600893] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cppExport.cmake\n'}
+[16.600959] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.601007] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.601043] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.601081] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.601117] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[16.601151] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.601646] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.601754] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.601811] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[16.601868] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.601918] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport.cmake\n'}
+[16.601966] (crazyflie_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.603215] (crazyflie_interfaces) CommandEnded: {'returncode': 0}
+[16.620819] (crazyflie_interfaces) JobEnded: {'identifier': 'crazyflie_interfaces', 'rc': 0}
+[16.621395] (-) EventReactorShutdown: {}

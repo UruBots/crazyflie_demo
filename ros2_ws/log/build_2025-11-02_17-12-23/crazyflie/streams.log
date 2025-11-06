@@ -1,0 +1,82 @@
+[0.261s] Invoking command in '/workspace/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/crazyswarm2/crazyflie -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie
+[0.286s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.526s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.534s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.555s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.562s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.627s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.628s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.747s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.856s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.856s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.869s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.889s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.907s] -- Found crazyflie_interfaces: 1.0.3 (/workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[0.936s] -- Found motion_capture_tracking_interfaces: 1.0.6 (/opt/ros/jazzy/share/motion_capture_tracking_interfaces/cmake)
+[0.962s] -- Found ros_environment: 4.2.1 (/opt/ros/jazzy/share/ros_environment/cmake)
+[0.975s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options 
+[0.979s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.083s] -- Configuring done (0.8s)
+[1.129s] -- Generating done (0.0s)
+[1.138s] -- Build files have been written to: /workspace/ros2_ws/build/crazyflie
+[1.150s] Invoked command in '/workspace/ros2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/crazyswarm2/crazyflie -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie
+[1.151s] Invoking command in '/workspace/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/crazyflie -- -j16 -l16
+[1.215s] [  2%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o
+[1.215s] [ 10%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o
+[1.215s] [ 10%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o
+[1.215s] [ 10%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o
+[1.215s] [ 12%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o
+[1.216s] [ 17%] Building CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o
+[1.216s] [ 17%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o
+[1.216s] [ 20%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o
+[1.220s] [ 22%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o
+[3.534s] [ 25%] Linking CXX static library libcrazyflieLinkCpp.a
+[3.590s] [ 25%] Built target crazyflieLinkCpp
+[3.611s] [ 27%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o
+[3.613s] [ 30%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o
+[5.426s] [ 32%] Linking CXX static library libcrazyflie_cpp.a
+[5.483s] [ 32%] Built target crazyflie_cpp
+[5.508s] [ 35%] Building CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o
+[5.510s] [ 37%] Building CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o
+[5.511s] [ 40%] Building CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o
+[5.511s] [ 42%] Building CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o
+[5.511s] [ 45%] Building CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o
+[5.514s] [ 52%] Building CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o
+[5.514s] [ 52%] Building CXX object deps/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o
+[5.514s] [ 52%] Building CXX object deps/crazyflie_tools/CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o
+[5.517s] [ 60%] Building CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o
+[5.518s] [ 60%] Building CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o
+[5.520s] [ 62%] Building CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o
+[5.521s] [ 65%] Building CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o
+[5.521s] [ 60%] Building CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o
+[7.107s] [ 67%] Linking CXX executable version
+[7.324s] [ 67%] Built target version
+[7.469s] [ 70%] Linking CXX executable listParams
+[7.595s] [ 72%] Linking CXX executable scan
+[7.683s] [ 75%] Linking CXX executable listLogVariables
+[7.698s] [ 77%] Linking CXX executable reboot
+[7.714s] [ 77%] Built target listParams
+[7.736s] [ 80%] Linking CXX executable console
+[7.760s] [ 82%] Linking CXX executable listMemories
+[7.781s] [ 85%] Linking CXX executable downloadUSDLogfile
+[7.855s] [ 87%] Linking CXX executable log
+[7.904s] [ 87%] Built target scan
+[7.964s] [ 90%] Linking CXX executable comCheck
+[7.986s] [ 90%] Built target listLogVariables
+[8.035s] [ 90%] Built target reboot
+[8.080s] [ 90%] Built target listMemories
+[8.095s] [ 90%] Built target console
+[8.127s] [ 90%] Built target downloadUSDLogfile
+[8.157s] [ 92%] Linking CXX executable setParam
+[8.180s] [ 92%] Built target log
+[8.203s] [ 92%] Built target comCheck
+[8.303s] [ 92%] Built target setParam
+[8.427s] [ 95%] Linking CXX executable battery
+[8.554s] [ 95%] Built target battery
+[13.872s] [ 97%] Linking CXX executable teleop
+[14.345s] [ 97%] Built target teleop
+[30.220s] [100%] Linking CXX executable crazyflie_server
+[31.546s] [100%] Built target crazyflie_server

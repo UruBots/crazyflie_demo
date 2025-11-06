@@ -1,0 +1,5 @@
+failed to create symbolic link '/workspace/ros2_ws/build/crazyflie_sim/ament_cmake_python/crazyflie_sim/crazyflie_sim' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_crazyflie_sim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_crazyflie_sim] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ament_cmake_python_symlink_crazyflie_sim.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

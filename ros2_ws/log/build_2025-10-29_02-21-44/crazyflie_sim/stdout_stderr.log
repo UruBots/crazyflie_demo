@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/ros2_ws/build/crazyflie_sim
+Built target ament_cmake_python_copy_crazyflie_sim
+Built target ament_cmake_python_copy_crazyflie_sim_setup
+running install_scripts
+running egg_info
+creating crazyflie_sim.egg-info
+writing crazyflie_sim.egg-info/PKG-INFO
+writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+writing entry points to crazyflie_sim.egg-info/entry_points.txt
+writing top-level names to crazyflie_sim.egg-info/top_level.txt
+writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing crazyflie_sim.egg-info/PKG-INFO
+writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+writing entry points to crazyflie_sim.egg-info/entry_points.txt
+writing top-level names to crazyflie_sim.egg-info/top_level.txt
+reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_crazyflie_sim_egg
+Installing crazyflie_server script to scripts
+Built target ament_cmake_python_build_crazyflie_sim_scripts

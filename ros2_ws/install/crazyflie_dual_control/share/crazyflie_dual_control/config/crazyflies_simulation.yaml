@@ -1,0 +1,46 @@
+# Configuración para 2 Crazyflies en simulación con Gazebo
+# Formato Crazyswarm2 fileversion 3 (compatible con simulador)
+fileversion: 3
+
+robots:
+  cf1:
+    enabled: true
+    uri: sim://cf1  # URI especial para simulación
+    initial_position: [0.0, 0.0, 0.05]  # Altura inicial ligeramente por encima del piso
+    type: cf21
+    
+  cf2:
+    enabled: true
+    uri: sim://cf2  # URI especial para simulación
+    initial_position: [1.0, 0.0, 0.05]  # Altura inicial ligeramente por encima del piso
+    type: cf21
+
+# Definición de tipos de robots
+robot_types:
+  cf21:
+    motion_capture:
+      tracking: "libobjecttracker"  # Para simulación
+      marker: default_single_marker
+      dynamics: default
+    big_quad: false
+    battery:
+      voltage_warning: 3.8   # Voltios
+      voltage_critical: 3.7   # Voltios
+
+# Configuración global para todos los robots
+all:
+  firmware_logging:
+    enabled: false  # Deshabilitado en simulación
+  reference_frame: "world"
+  broadcasts:
+    num_repeats: 15
+    delay_between_repeats_ms: 1
+
+# Configuración específica para simulación
+sim:
+  backend: np  # Usar backend numpy (simulación simple sin visualización externa)
+  controller: mellinger  # Controlador: none, pid, o mellinger
+  max_dt: 0  # Limitar artificialmente step() (0 = deshabilitado)
+  visualizations:
+    rviz:
+      enabled: true  # Habilitar visualización RViz del simulador (publica TFs y markers)

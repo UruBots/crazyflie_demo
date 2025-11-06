@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000043] (-) JobUnselected: {'identifier': 'crazyflie'}
+[0.000067] (-) JobUnselected: {'identifier': 'crazyflie_description'}
+[0.000078] (-) JobUnselected: {'identifier': 'crazyflie_dual_control'}
+[0.000087] (-) JobUnselected: {'identifier': 'crazyflie_examples'}
+[0.000094] (-) JobUnselected: {'identifier': 'crazyflie_interfaces'}
+[0.000101] (-) JobUnselected: {'identifier': 'crazyflie_py'}
+[0.000116] (-) JobUnselected: {'identifier': 'crazyflie_ros2_multiranger_bringup'}
+[0.000123] (-) JobUnselected: {'identifier': 'crazyflie_ros2_multiranger_simple_mapper'}
+[0.000129] (-) JobUnselected: {'identifier': 'crazyflie_ros2_multiranger_wall_following'}
+[0.000135] (-) JobUnselected: {'identifier': 'ros_gz_crazyflie_bringup'}
+[0.000141] (-) JobUnselected: {'identifier': 'ros_gz_crazyflie_control'}
+[0.000147] (-) JobUnselected: {'identifier': 'ros_gz_crazyflie_gazebo'}
+[0.000155] (crazyflie_sim) JobQueued: {'identifier': 'crazyflie_sim', 'dependencies': OrderedDict({'crazyflie_interfaces': '/workspace/ros2_ws/install/crazyflie_interfaces'})}
+[0.000169] (crazyflie_sim) JobStarted: {'identifier': 'crazyflie_sim'}
+[0.009103] (crazyflie_sim) JobProgress: {'identifier': 'crazyflie_sim', 'progress': 'cmake'}
+[0.009470] (crazyflie_sim) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros2_ws/src/crazyswarm2/crazyflie_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crazyflie_sim'], 'cwd': '/workspace/ros2_ws/build/crazyflie_sim', 'env': OrderedDict({'VSCODE_CWD': '/workspace', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'utec-G5-MF', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-75ae06c0-f46a-4a3d-a16e-92a44f3c59e7.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'COMPOSER_NO_INTERACTION': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/cursor-remote-ssh-3b2ab4f1-13a6-4e53-9d50-4fc98e42e232.sock', 'AMENT_PREFIX_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros2_ws/build/crazyflie_sim', 'LC_ALL': 'C.UTF-8', 'USB_DEVICE_PERMISSIONS': '0666', 'PYTHONPATH': '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.055610] (crazyflie_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.097907] (crazyflie_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099478] (-) TimerEvent: {}
+[0.110471] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.192283] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.198180] (crazyflie_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.198413] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.198529] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199569] (-) TimerEvent: {}
+[0.207955] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299783] (-) TimerEvent: {}
+[0.348140] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.354657] (crazyflie_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.354914] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.355410] (crazyflie_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.359270] (crazyflie_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.399865] (-) TimerEvent: {}
+[0.472957] (crazyflie_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500050] (-) TimerEvent: {}
+[0.526282] (crazyflie_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600165] (-) TimerEvent: {}
+[0.645935] (crazyflie_sim) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)\n'}
+[0.700288] (-) TimerEvent: {}
+[0.800476] (-) TimerEvent: {}
+[0.900708] (-) TimerEvent: {}
+[1.000892] (-) TimerEvent: {}
+[1.101168] (-) TimerEvent: {}
+[1.171906] (crazyflie_sim) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.174352] (crazyflie_sim) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.175544] (crazyflie_sim) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/crazyflie_sim\n'}
+[1.179793] (crazyflie_sim) CommandEnded: {'returncode': 0}
+[1.180499] (crazyflie_sim) JobProgress: {'identifier': 'crazyflie_sim', 'progress': 'build'}
+[1.180581] (crazyflie_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/crazyflie_sim', '--', '-j16', '-l16'], 'cwd': '/workspace/ros2_ws/build/crazyflie_sim', 'env': OrderedDict({'VSCODE_CWD': '/workspace', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'utec-G5-MF', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-75ae06c0-f46a-4a3d-a16e-92a44f3c59e7.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'COMPOSER_NO_INTERACTION': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/cursor-remote-ssh-3b2ab4f1-13a6-4e53-9d50-4fc98e42e232.sock', 'AMENT_PREFIX_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros2_ws/build/crazyflie_sim', 'LC_ALL': 'C.UTF-8', 'USB_DEVICE_PERMISSIONS': '0666', 'PYTHONPATH': '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.201288] (-) TimerEvent: {}
+[1.239484] (crazyflie_sim) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_crazyflie_sim\n'}
+[1.240261] (crazyflie_sim) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_crazyflie_sim_setup\n'}
+[1.301424] (-) TimerEvent: {}
+[1.379192] (crazyflie_sim) StdoutLine: {'line': b'running egg_info\n'}
+[1.379823] (crazyflie_sim) StdoutLine: {'line': b'creating crazyflie_sim.egg-info\n'}
+[1.386416] (crazyflie_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[1.389864] (crazyflie_sim) StdoutLine: {'line': b'writing crazyflie_sim.egg-info/PKG-INFO\n'}
+[1.390075] (crazyflie_sim) StdoutLine: {'line': b'writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt\n'}
+[1.390193] (crazyflie_sim) StdoutLine: {'line': b'writing entry points to crazyflie_sim.egg-info/entry_points.txt\n'}
+[1.390313] (crazyflie_sim) StdoutLine: {'line': b'writing top-level names to crazyflie_sim.egg-info/top_level.txt\n'}
+[1.390419] (crazyflie_sim) StdoutLine: {'line': b"writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'\n"}
+[1.401640] (-) TimerEvent: {}
+[1.405647] (crazyflie_sim) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.405876] (crazyflie_sim) StderrLine: {'line': b'!!\n'}
+[1.405970] (crazyflie_sim) StderrLine: {'line': b'\n'}
+[1.406056] (crazyflie_sim) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.406138] (crazyflie_sim) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.406222] (crazyflie_sim) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.406307] (crazyflie_sim) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.406394] (crazyflie_sim) StderrLine: {'line': b'\n'}
+[1.406480] (crazyflie_sim) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.406591] (crazyflie_sim) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.406684] (crazyflie_sim) StderrLine: {'line': b'\n'}
+[1.406766] (crazyflie_sim) StderrLine: {'line': b'!!\n'}
+[1.406850] (crazyflie_sim) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.409619] (crazyflie_sim) StdoutLine: {'line': b'running egg_info\n'}
+[1.419424] (crazyflie_sim) StdoutLine: {'line': b"reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'\n"}
+[1.419801] (crazyflie_sim) StdoutLine: {'line': b"writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'\n"}
+[1.430520] (crazyflie_sim) StdoutLine: {'line': b'writing crazyflie_sim.egg-info/PKG-INFO\n'}
+[1.430768] (crazyflie_sim) StdoutLine: {'line': b'writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt\n'}
+[1.430909] (crazyflie_sim) StdoutLine: {'line': b'writing entry points to crazyflie_sim.egg-info/entry_points.txt\n'}
+[1.430997] (crazyflie_sim) StdoutLine: {'line': b'writing top-level names to crazyflie_sim.egg-info/top_level.txt\n'}
+[1.446134] (crazyflie_sim) StdoutLine: {'line': b'Built target ament_cmake_python_build_crazyflie_sim_egg\n'}
+[1.454299] (crazyflie_sim) StdoutLine: {'line': b"reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'\n"}
+[1.454742] (crazyflie_sim) StdoutLine: {'line': b"writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'\n"}
+[1.501731] (-) TimerEvent: {}
+[1.518592] (crazyflie_sim) StdoutLine: {'line': b'Installing crazyflie_server script to scripts\n'}
+[1.548664] (crazyflie_sim) StdoutLine: {'line': b'Built target ament_cmake_python_build_crazyflie_sim_scripts\n'}
+[1.557224] (crazyflie_sim) CommandEnded: {'returncode': 0}
+[1.557817] (crazyflie_sim) JobProgress: {'identifier': 'crazyflie_sim', 'progress': 'install'}
+[1.565024] (crazyflie_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros2_ws/build/crazyflie_sim'], 'cwd': '/workspace/ros2_ws/build/crazyflie_sim', 'env': OrderedDict({'VSCODE_CWD': '/workspace', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'utec-G5-MF', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-75ae06c0-f46a-4a3d-a16e-92a44f3c59e7.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'COMPOSER_NO_INTERACTION': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/cursor-server/bin/linux-x64/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/cursor-remote-ssh-3b2ab4f1-13a6-4e53-9d50-4fc98e42e232.sock', 'AMENT_PREFIX_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros2_ws/build/crazyflie_sim', 'LC_ALL': 'C.UTF-8', 'USB_DEVICE_PERMISSIONS': '0666', 'PYTHONPATH': '/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.572758] (crazyflie_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.573113] (crazyflie_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.573297] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh\n'}
+[1.581094] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv\n'}
+[1.589327] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/PKG-INFO\n'}
+[1.596647] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/SOURCES.txt\n'}
+[1.601843] (-) TimerEvent: {}
+[1.604163] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/dependency_links.txt\n'}
+[1.612213] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/entry_points.txt\n'}
+[1.619711] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/top_level.txt\n'}
+[1.628063] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server\n'}
+[1.637455] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/__init__.py\n'}
+[1.647025] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml\n'}
+[1.656424] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth\n'}
+[1.665230] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth\n'}
+[1.673587] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth\n'}
+[1.681467] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth\n'}
+[1.689232] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth\n'}
+[1.696645] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf\n'}
+[1.701962] (-) TimerEvent: {}
+[1.706265] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/dynobench.py\n'}
+[1.716281] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/neuralswarm.py\n'}
+[1.723963] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/none.py\n'}
+[1.731794] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/np.py\n'}
+[1.739764] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/pinocchio.py\n'}
+[1.749725] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_server.py\n'}
+[1.757205] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_sil.py\n'}
+[1.767231] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/sim_data_types.py\n'}
+[1.776116] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/README.md\n'}
+[1.783797] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/blender.py\n'}
+[1.791052] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/README.md\n'}
+[1.798532] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg\n'}
+[1.802081] (-) TimerEvent: {}
+[1.805952] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg\n'}
+[1.812905] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg\n'}
+[1.821783] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg\n'}
+[1.829639] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg\n'}
+[1.838701] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/env.jpg\n'}
+[1.846368] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg\n'}
+[1.854993] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg\n'}
+[1.863048] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg\n'}
+[1.870778] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/museumplein.jpg\n'}
+[1.878565] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg\n'}
+[1.886321] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg\n'}
+[1.894168] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model/cf.mtl\n'}
+[1.901737] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model/cf.obj\n'}
+[1.902138] (-) TimerEvent: {}
+[1.909442] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/pdf.py\n'}
+[1.916410] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/record_states.py\n'}
+[1.925093] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/rviz.py\n'}
+[1.932350] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim\n'}
+[1.941315] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim\n'}
+[1.949769] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh\n'}
+[1.957897] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv\n'}
+[1.965818] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh\n'}
+[1.974219] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv\n'}
+[1.981929] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash\n'}
+[1.989402] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh\n'}
+[1.997373] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh\n'}
+[2.002263] (-) TimerEvent: {}
+[2.005062] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv\n'}
+[2.013726] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv\n'}
+[2.021488] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim\n'}
+[2.029857] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake\n'}
+[2.039868] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake\n'}
+[2.048671] (crazyflie_sim) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml\n'}
+[2.097944] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim'...\n"}
+[2.098121] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/__init__.py'...\n"}
+[2.098196] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend'...\n"}
+[2.098259] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data'...\n"}
+[2.098322] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/dynobench'...\n"}
+[2.098385] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2'...\n"}
+[2.098446] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/pinocchio'...\n"}
+[2.098494] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/dynobench.py'...\n"}
+[2.098531] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/neuralswarm.py'...\n"}
+[2.098589] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/none.py'...\n"}
+[2.098628] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/np.py'...\n"}
+[2.098667] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/pinocchio.py'...\n"}
+[2.098703] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_server.py'...\n"}
+[2.098738] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_sil.py'...\n"}
+[2.098773] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/sim_data_types.py'...\n"}
+[2.098808] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization'...\n"}
+[2.098845] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/blender.py'...\n"}
+[2.098899] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data'...\n"}
+[2.098943] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env'...\n"}
+[2.098979] (crazyflie_sim) StdoutLine: {'line': b"Listing '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model'...\n"}
+[2.099022] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/pdf.py'...\n"}
+[2.099057] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/record_states.py'...\n"}
+[2.099105] (crazyflie_sim) StdoutLine: {'line': b"Compiling '/workspace/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/rviz.py'...\n"}
+[2.102471] (-) TimerEvent: {}
+[2.103840] (crazyflie_sim) CommandEnded: {'returncode': 0}
+[2.121557] (crazyflie_sim) JobEnded: {'identifier': 'crazyflie_sim', 'rc': 0}
+[2.122135] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+[console_scripts]
+advanced_controller = crazyflie_dual_control.advanced_controller:main
+battery_monitor = crazyflie_dual_control.battery_monitor:main
+dual_controller = crazyflie_dual_control.dual_controller:main
+gazebo_pose_sync = crazyflie_dual_control.gazebo_pose_sync:main
+keyboard_controller = crazyflie_dual_control.keyboard_controller:main
+simple_flight = crazyflie_dual_control.simple_flight:main

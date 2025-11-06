@@ -1,0 +1,79 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found crazyflie_interfaces: 1.0.3 (/workspace/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+-- Found motion_capture_tracking_interfaces: 1.0.6 (/opt/ros/jazzy/share/motion_capture_tracking_interfaces/cmake)
+-- Found ros_environment: 4.2.1 (/opt/ros/jazzy/share/ros_environment/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options 
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/ros2_ws/build/crazyflie
+[  2%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o
+[ 10%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o
+[ 10%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o
+[ 10%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o
+[ 12%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o
+[ 17%] Building CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o
+[ 17%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o
+[ 20%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o
+[ 22%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o
+[ 25%] Linking CXX static library libcrazyflieLinkCpp.a
+[ 25%] Built target crazyflieLinkCpp
+[ 27%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o
+[ 30%] Building CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o
+[ 32%] Linking CXX static library libcrazyflie_cpp.a
+[ 32%] Built target crazyflie_cpp
+[ 35%] Building CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o
+[ 37%] Building CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o
+[ 40%] Building CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o
+[ 42%] Building CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o
+[ 45%] Building CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o
+[ 52%] Building CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o
+[ 52%] Building CXX object deps/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o
+[ 52%] Building CXX object deps/crazyflie_tools/CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o
+[ 60%] Building CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o
+[ 60%] Building CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o
+[ 62%] Building CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o
+[ 65%] Building CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o
+[ 60%] Building CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o
+[ 67%] Linking CXX executable version
+[ 67%] Built target version
+[ 70%] Linking CXX executable listParams
+[ 72%] Linking CXX executable scan
+[ 75%] Linking CXX executable listLogVariables
+[ 77%] Linking CXX executable reboot
+[ 77%] Built target listParams
+[ 80%] Linking CXX executable console
+[ 82%] Linking CXX executable listMemories
+[ 85%] Linking CXX executable downloadUSDLogfile
+[ 87%] Linking CXX executable log
+[ 87%] Built target scan
+[ 90%] Linking CXX executable comCheck
+[ 90%] Built target listLogVariables
+[ 90%] Built target reboot
+[ 90%] Built target listMemories
+[ 90%] Built target console
+[ 90%] Built target downloadUSDLogfile
+[ 92%] Linking CXX executable setParam
+[ 92%] Built target log
+[ 92%] Built target comCheck
+[ 92%] Built target setParam
+[ 95%] Linking CXX executable battery
+[ 95%] Built target battery
+[ 97%] Linking CXX executable teleop
+[ 97%] Built target teleop
+[100%] Linking CXX executable crazyflie_server
+[100%] Built target crazyflie_server

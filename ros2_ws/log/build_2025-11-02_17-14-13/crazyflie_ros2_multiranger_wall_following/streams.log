@@ -1,0 +1,17 @@
+[0.942s] Invoking command in '/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following': PYTHONPATH=/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following/build --no-deps symlink_data
+[1.249s] running develop
+[1.483s] running egg_info
+[1.503s] writing crazyflie_ros2_multiranger_wall_following.egg-info/PKG-INFO
+[1.503s] writing dependency_links to crazyflie_ros2_multiranger_wall_following.egg-info/dependency_links.txt
+[1.503s] writing entry points to crazyflie_ros2_multiranger_wall_following.egg-info/entry_points.txt
+[1.504s] writing requirements to crazyflie_ros2_multiranger_wall_following.egg-info/requires.txt
+[1.504s] writing top-level names to crazyflie_ros2_multiranger_wall_following.egg-info/top_level.txt
+[1.525s] reading manifest file 'crazyflie_ros2_multiranger_wall_following.egg-info/SOURCES.txt'
+[1.526s] writing manifest file 'crazyflie_ros2_multiranger_wall_following.egg-info/SOURCES.txt'
+[1.538s] running build_ext
+[1.538s] Creating /workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages/crazyflie-ros2-multiranger-wall-following.egg-link (link to .)
+[1.538s] Installing wall_following_multiranger script to /workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/crazyflie_ros2_multiranger_wall_following
+[1.539s] 
+[1.539s] Installed /workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following
+[1.539s] running symlink_data
+[1.568s] Invoked command in '/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following' returned '0': PYTHONPATH=/workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_ros2_multiranger_wall_following/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/crazyflie_ros2_multiranger_wall_following/build --no-deps symlink_data

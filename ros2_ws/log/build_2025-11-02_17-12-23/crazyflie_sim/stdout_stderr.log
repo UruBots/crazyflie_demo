@@ -1,0 +1,12 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/ros2_ws/build/crazyflie_sim
+failed to create symbolic link '/workspace/ros2_ws/build/crazyflie_sim/ament_cmake_python/crazyflie_sim/crazyflie_sim' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_crazyflie_sim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_crazyflie_sim] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ament_cmake_python_symlink_crazyflie_sim.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Built target ament_cmake_python_symlink_crazyflie_sim_setup
+gmake: *** [Makefile:146: all] Error 2

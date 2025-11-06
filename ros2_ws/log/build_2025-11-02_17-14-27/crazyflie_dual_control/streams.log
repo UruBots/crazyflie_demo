@@ -1,0 +1,27 @@
+[0.480s] Invoking command in '/workspace/ros2_ws/build/crazyflie_dual_control': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie_py:/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/build/crazyflie_dual_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_py:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/crazyflie_dual_control/build --no-deps symlink_data --force
+[0.664s] running develop
+[0.761s] running egg_info
+[0.770s] writing crazyflie_dual_control.egg-info/PKG-INFO
+[0.770s] writing dependency_links to crazyflie_dual_control.egg-info/dependency_links.txt
+[0.771s] writing entry points to crazyflie_dual_control.egg-info/entry_points.txt
+[0.771s] writing requirements to crazyflie_dual_control.egg-info/requires.txt
+[0.771s] writing top-level names to crazyflie_dual_control.egg-info/top_level.txt
+[0.791s] reading manifest file 'crazyflie_dual_control.egg-info/SOURCES.txt'
+[0.791s] writing manifest file 'crazyflie_dual_control.egg-info/SOURCES.txt'
+[0.802s] running build_ext
+[0.802s] Creating /workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages/crazyflie-dual-control.egg-link (link to .)
+[0.803s] Installing advanced_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.803s] Installing battery_monitor script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.803s] Installing dual_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.803s] Installing keyboard_controller script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.804s] Installing simple_flight script to /workspace/ros2_ws/install/crazyflie_dual_control/lib/crazyflie_dual_control
+[0.804s] 
+[0.804s] Installed /workspace/ros2_ws/build/crazyflie_dual_control
+[0.804s] running symlink_data
+[0.804s] symbolically linking /workspace/ros2_ws/build/crazyflie_dual_control/resource/crazyflie_dual_control -> /workspace/ros2_ws/install/crazyflie_dual_control/share/ament_index/resource_index/packages
+[0.804s] symbolically linking /workspace/ros2_ws/build/crazyflie_dual_control/package.xml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control
+[0.804s] symbolically linking /workspace/ros2_ws/build/crazyflie_dual_control/launch/dual_crazyflies.launch.py -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/launch
+[0.804s] symbolically linking /workspace/ros2_ws/build/crazyflie_dual_control/launch/simulation.launch.py -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/launch
+[0.804s] symbolically linking /workspace/ros2_ws/build/crazyflie_dual_control/config/crazyflies.yaml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/config
+[0.804s] symbolically linking /workspace/ros2_ws/build/crazyflie_dual_control/config/crazyflies_simulation.yaml -> /workspace/ros2_ws/install/crazyflie_dual_control/share/crazyflie_dual_control/config
+[0.829s] Invoked command in '/workspace/ros2_ws/build/crazyflie_dual_control' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie_py:/workspace/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crazyflie_examples:/workspace/ros2_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspace/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/build/crazyflie_dual_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/crazyflie_dual_control/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/workspace/ros2_ws/build/crazyflie_py:/workspace/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/workspace/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/crazyflie_dual_control/build --no-deps symlink_data --force
